@@ -84,6 +84,8 @@ public/critical.css
 src/addons/*
 /cache
 
+.nyc_output/
+
 # yarn 3
 .pnp.*
 .yarn/*
