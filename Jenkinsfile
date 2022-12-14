@@ -4,10 +4,10 @@ pipeline {
     RANCHER_ENVID = ""
     GIT_NAME = "advisory-board-frontend"
     registry = "eeacms/advisory-board-frontend"
-    template = "templates/advisory-board-frontend"
+    template = "templates/volto-advisory-board"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'advisory-board-frontend.eionet.europa.eu'
+    SONARQUBE_TAG = 'climate-advisory-board.europa.eu'
   }
 
   agent any
