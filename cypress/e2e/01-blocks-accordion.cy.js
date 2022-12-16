@@ -90,7 +90,7 @@ describe('Blocks Tests', () => {
     // enter content
     cy.get('.accordion:nth-child(3) > .title input').click();
     cy.get('.accordion:nth-child(3) > .title input').type('panel 2');
-    cy.get('.accordion:nth-child(3) > .title > .icon').click();
+    cy.get('.accordion:nth-child(3) > .title > .icon').click({ force: true });
     cy.wait(500);
 
     // the cypress test runs with both slate and draftjs.
@@ -119,7 +119,7 @@ describe('Blocks Tests', () => {
     //after saving
     cy.get('div.accordion-title > span').contains('panel 2');
     // after save, the 3 child becomes second
-    cy.get('.accordion:nth-child(2) > .title > .icon').click();
+    cy.get('.accordion:nth-child(2) > .title > .icon').click({ force: true });
     cy.get('div.content')
       .should('have.class', 'active')
       .within(() => {
