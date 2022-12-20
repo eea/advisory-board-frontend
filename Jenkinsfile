@@ -7,7 +7,7 @@ pipeline {
     template = "templates/advisory-board-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'climate-advisory-board.devel4cph.eea.europa.eu'
+    SONARQUBE_TAG = 'climate-advisory-board.europa.eu'
   }
 
   agent any
