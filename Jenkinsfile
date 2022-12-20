@@ -1,13 +1,13 @@
 pipeline {
   environment {
-    RANCHER_STACKID = ""
-    RANCHER_ENVID = ""
+    RANCHER_STACKID = "1st2549"
+    RANCHER_ENVID = "1a332957"
     GIT_NAME = "advisory-board-frontend"
     registry = "eeacms/advisory-board-frontend"
     template = "templates/advisory-board-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'climate-advisory-board.europa.eu'
+    SONARQUBE_TAG = 'climate-advisory-board.devel4cph.eea.europa.eu'
   }
 
   agent any
