@@ -2003,16 +2003,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.0.0-alpha.5":
-  version: 1.0.0-alpha.5
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-alpha.5"
+"@eeacms/volto-eea-design-system@npm:1.0.0-alpha.9":
+  version: 1.0.0-alpha.9
+  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-alpha.9"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     react-countup: ^6.3.0
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: 56b738e01374d62193235c2e6265b3b4961482e8115c6bfc0a83e2f3696e9c97f21371103f3f1e1db500db8669c72f04f15b8e50a046b418231d8635080c663a
+  checksum: 67e0a18e9f861a985a1a4d7c1c1b20cb551948a0b0ad2f7b295d3c2f6ec2608878db0f7261b204ac158eb73e7c5722dab4e9339661ffeeffc431549809807b81
   languageName: node
   linkType: hard
 
@@ -6221,7 +6221,7 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-eea-design-system": 1.0.0-alpha.5
+    "@eeacms/volto-eea-design-system": 1.0.0-alpha.9
     "@eeacms/volto-eea-kitkat": 10.4.0
     "@eeacms/volto-eea-website-theme": 1.4.2
     "@plone/scripts": ^2.1.5
