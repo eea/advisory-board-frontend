@@ -2016,19 +2016,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:^1.0.0-alpha.8":
-  version: 1.0.0-alpha.8
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-alpha.8"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    react-countup: ^6.3.0
-    react-slick: ^0.28.1
-    remixicon: 2.5.0
-    slick-carousel: ^1.8.1
-  checksum: 03a489741a2a837238219c705f1bd0792575907ac5e483e8e109aa5d3fcbd98deeb9b484943d1f46f1a21c4fec3a3bb3ee8b0a85b5cf0759f63382a4c9a907a4
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-eea-kitkat@npm:10.4.0":
   version: 10.4.0
   resolution: "@eeacms/volto-eea-kitkat@npm:10.4.0"

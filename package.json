@@ -133,6 +133,9 @@
   "engines": {
     "node": "^14 || ^16"
   },
+  "resolutions": {
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.9"
+  },
   "dependencies": {
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.9",
     "@eeacms/volto-eea-kitkat": "10.4.0",

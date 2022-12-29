@@ -20,6 +20,7 @@ describe('Blocks Tests', () => {
       .contains('Section (Group)')
       .click({ force: true });
 
+      cy.scrollTo('top')
     cy.get('.block-editor-group [contenteditable=true]')
       .focus()
       .click()
@@ -29,6 +30,8 @@ describe('Blocks Tests', () => {
       .focus()
       .click()
       .type('test2{enter}');
+
+
     cy.get('.block-editor-group [contenteditable=true]')
       .eq(2)
       .focus()
