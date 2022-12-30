@@ -37,6 +37,7 @@ describe('Blocks Tests', () => {
     cy.get('.field-wrapper-menuPosition #field-menuPosition').first().click();
     cy.get('.react-select__menu').contains('Top').click();
 
+    cy.scrollTo(0, 500)
     cy.get('.tabs-block [contenteditable=true]').first().type('Hydrogen');
     cy.get('.tabs-block .ui.left.menu .item').last().click();
     cy.get('.tabs-block').contains('Tab 2').click();

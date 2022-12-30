@@ -20,7 +20,8 @@ describe('Blocks Tests', () => {
       .contains('Section (Group)')
       .click({ force: true });
 
-      cy.scrollTo('top')
+    cy.scrollTo('top')
+
     cy.get('.block-editor-group [contenteditable=true]')
       .focus()
       .click()
