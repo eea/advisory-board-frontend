@@ -26,13 +26,15 @@ describe('Blocks Tests', () => {
       .focus()
       .click()
       .type('test{enter}');
+
     cy.get('.block-editor-group [contenteditable=true]')
       .eq(1)
       .focus()
       .click()
       .type('test2{enter}');
 
-
+    cy.get('.block-editor-group')
+      .click()
     cy.get('.block-editor-group [contenteditable=true]')
       .eq(2)
       .focus()
