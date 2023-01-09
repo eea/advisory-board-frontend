@@ -10,6 +10,8 @@ describe('Slate citations', () => {
       .type('{selectAll}')
       .dblclick();
 
+    cy.getSlate().dblclick();
+
     // Footnote
     cy.setSlateCursor('Colorless').dblclick();
     cy.setSlateSelection('Colorless', 'green');
@@ -48,6 +50,8 @@ describe('Slate citations', () => {
     cy.getSlateEditorAndType('Colorless green ideas sleep furiously.')
       .type('{selectAll}')
       .dblclick();
+
+    cy.getSlate().dblclick();
 
     // Footnote
     cy.setSlateCursor('Colorless').dblclick();

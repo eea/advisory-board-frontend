@@ -22,6 +22,7 @@ describe('Block Tests: Metadata', () => {
     cy.clickSlateButton('Remove metadata');
 
     // Re-add link
+    cy.getSlate().click();
     cy.setSlateSelection('green', 'sleep');
     cy.clickSlateButton('Metadata');
 
