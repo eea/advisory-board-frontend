@@ -31,7 +31,8 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-eea-design-system",
-    "@eeacms/volto-eea-website-theme"
+    "@eeacms/volto-eea-website-theme",
+    "@eeacms/volto-climate-advisory-board-policy"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -137,6 +138,7 @@
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.9"
   },
   "dependencies": {
+    "@eeacms/volto-climate-advisory-board-policy": "0.1.0",
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.9",
     "@eeacms/volto-eea-kitkat": "10.5.0",
     "@eeacms/volto-eea-website-theme": "1.5.0",
