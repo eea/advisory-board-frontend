@@ -22,7 +22,8 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "dev": "make develop"
   },
   "private": true,
   "workspaces": [
@@ -135,14 +136,14 @@
     "node": "^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.9"
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.11"
   },
   "dependencies": {
     "@eeacms/volto-climate-advisory-board-policy": "0.1.1",
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.9",
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.11",
     "@eeacms/volto-eea-kitkat": "12.0.0",
     "@eeacms/volto-eea-website-theme": "1.8.2",
-    "@plone/volto": "16.6.0"
+    "@plone/volto": "16.8.1"
   },
   "devDependencies": {
     "@cypress/code-coverage": "3.10.0",
