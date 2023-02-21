@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/volto-climate-advisory-board-policy": [
+                "addons/volto-climate-advisory-board-policy/src"
+            ]
         },
         "baseUrl": "src"
     }
