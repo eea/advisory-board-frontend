@@ -214,5 +214,13 @@
     "branch": "develop",
     "develop": false,
     "path": "src"
+  },
+  "volto-climate-advisory-board-policy": {
+    "url": "git@github.com:eea/volto-climate-advisory-board-policy.git",
+    "https": "https://github.com/eea/volto-climate-advisory-board-policy.git",
+    "package": "@eeacms/volto-climate-advisory-board-policy",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
