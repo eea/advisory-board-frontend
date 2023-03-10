@@ -1800,6 +1800,9 @@ __metadata:
   linkType: hard
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b3a64fe (merge develop)
 "@eeacms/volto-addon-template@workspace:src/addons/volto-europa-analytics":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-addon-template@workspace:src/addons/volto-europa-analytics"
@@ -1812,11 +1815,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+<<<<<<< HEAD
 "@eeacms/volto-anchors@npm:0.1.4":
   version: 0.1.4
   resolution: "@eeacms/volto-anchors@npm:0.1.4"
   checksum: b3112886f6de30ef0ff45b5c70c17d94e7258c1ef6ab4a452adcf056fcbd1a595575f3584784adcfd3b8161b54776d059954497f3575fc6132ce8077a9634adf
 =======
+=======
+>>>>>>> b3a64fe (merge develop)
 "@eeacms/volto-anchors@npm:0.1.5":
   version: 0.1.5
   resolution: "@eeacms/volto-anchors@npm:0.1.5"
@@ -12776,16 +12782,27 @@ __metadata:
   linkType: hard
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "github-slugger@npm:^1.0.0":
   version: 1.5.0
   resolution: "github-slugger@npm:1.5.0"
   checksum: c70988224578b3bdaa25df65973ffc8c24594a77a28550c3636e495e49d17aef5cdb04c04fa3f1744babef98c61eecc6a43299a13ea7f3cc33d680bf9053ffbe
 =======
 "github-slugger@npm:1.4.0, github-slugger@npm:^1.0.0":
+=======
+"github-slugger@npm:1.4.0":
+>>>>>>> b3a64fe (merge develop)
   version: 1.4.0
   resolution: "github-slugger@npm:1.4.0"
   checksum: 4f52e7a21f5c6a4c5328f01fe4fe13ae8881fea78bfe31f9e72c4038f97e3e70d52fb85aa7633a52c501dc2486874474d9abd22aa61cbe9b113099a495551c6b
 >>>>>>> f0c980f (Release @eeacms/volto-eea-kitkat@12.0.3)
+  languageName: node
+  linkType: hard
+
+"github-slugger@npm:^1.0.0":
+  version: 1.5.0
+  resolution: "github-slugger@npm:1.5.0"
+  checksum: c70988224578b3bdaa25df65973ffc8c24594a77a28550c3636e495e49d17aef5cdb04c04fa3f1744babef98c61eecc6a43299a13ea7f3cc33d680bf9053ffbe
   languageName: node
   linkType: hard
 
