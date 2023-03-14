@@ -20,7 +20,7 @@ describe('Blocks Tests', () => {
       .contains('Columns')
       .click({ force: true });
 
-    cy.get('.columns-block .ui.card').eq(2).click();
+    cy.get('.columns-block .ui.card').eq(2).click({force: true});
     cy.get('.field-wrapper-title #field-title').last().type('Column test');
     cy.get('.field-wrapper-data .columns-area button').last().click();
 
