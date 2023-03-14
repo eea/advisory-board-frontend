@@ -7,6 +7,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-europa-analytics": {
+    "url": "git@github.com:eea/volto-europa-analytics.git",
+    "https": "https://github.com/eea/volto-europa-analytics.git",
+    "package": "@eeacms/volto-europa-analytics",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
   "volto-matomo": {
     "url": "git@github.com:eea/volto-matomo.git",
     "https": "https://github.com/eea/volto-matomo.git",

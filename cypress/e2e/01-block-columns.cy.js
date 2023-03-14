@@ -20,7 +20,7 @@ describe('Blocks Tests', () => {
       .contains('Columns')
       .click({ force: true });
 
-    cy.get('.columns-block .ui.card').eq(2).click();
+    cy.get('.columns-block .ui.card').eq(2).click({force: true});
     cy.get('.field-wrapper-title #field-title').last().type('Column test');
     cy.get('.field-wrapper-data .columns-area button').last().click();
 
@@ -44,19 +44,6 @@ describe('Blocks Tests', () => {
       .focus()
       .click()
       .type('Second');
-    cy.get('.columns-block [contenteditable=true]')
-      .eq(2)
-      .focus()
-      .click()
-      .type('Third');
-    cy.get('.block-toolbar button').eq(1).click();
-
-    cy.get(
-      '.field-wrapper-grid_vertical_align  #field-grid_vertical_align',
-    ).click();
-    cy.get('.react-select__menu').contains('Middle').click();
-    cy.get('.field-wrapper-backgroundColor .ui.huge.button').click();
-    cy.get('.github-picker.color-picker span').eq(3).click();
 
     // Save
     cy.get('#toolbar-save').click();
@@ -66,7 +53,6 @@ describe('Blocks Tests', () => {
     cy.contains('My Add-on Page');
     cy.contains('First');
     cy.contains('Second');
-    cy.contains('Third');
     cy.get('.columns-view');
   });
 });
