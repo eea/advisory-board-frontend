@@ -2106,13 +2106,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.11.1":
-  version: 1.11.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.11.1"
+"@eeacms/volto-eea-website-theme@npm:1.11.2":
+  version: 1.11.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.11.2"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     volto-subsites: "*"
-  checksum: 062bf459252e1b66aab2184cb2a0b759a505b2346bcc9d5e65d129c8a468c7a811d315bfd78f7f1fdcd933614401409f9743923529a92676c6b9ebe50c544695
+  checksum: 36acc39d0451869d1dd4967bcc14cb5374b6f1cdec27b298f7caf9709365c837ec954ffc190dce65bf2a48f5aab12b7e493b053f9f0318f58cf5f01d0d145739
   languageName: node
   linkType: hard
 
@@ -2170,10 +2170,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-nextcloud-video-block@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@eeacms/volto-nextcloud-video-block@npm:0.2.0"
-  checksum: 2f4008ed35d2261044d37076f1ed627a6b798704ea67d9bff3adcb45859dbafb615057d8e46039514a51a1a77e189627df58273c28f2238df3f55dea822aff8f
+"@eeacms/volto-nextcloud-video-block@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@eeacms/volto-nextcloud-video-block@npm:0.3.0"
+  checksum: 598ad37636e15624caac20cb9a7b997709b40e0ec044a1dbddfb998b49220faea73625216f6413edd852b630e20fbbcb77d9d8e80056159ece60e0b222f94977
   languageName: node
   linkType: hard
 
@@ -6289,9 +6289,9 @@ __metadata:
     "@eeacms/volto-climate-advisory-board-policy": 0.1.4
     "@eeacms/volto-eea-design-system": 1.0.2
     "@eeacms/volto-eea-kitkat": 13.0.0
-    "@eeacms/volto-eea-website-theme": 1.11.1
+    "@eeacms/volto-eea-website-theme": 1.11.2
     "@eeacms/volto-europa-analytics": 0.1.1
-    "@eeacms/volto-nextcloud-video-block": 0.2.0
+    "@eeacms/volto-nextcloud-video-block": 0.3.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.8.1
     "@storybook/addon-actions": ^6.3.0
