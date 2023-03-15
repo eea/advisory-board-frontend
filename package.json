@@ -146,7 +146,7 @@
     "@eeacms/volto-eea-kitkat": "13.0.0",
     "@eeacms/volto-eea-website-theme": "1.11.2",
     "@eeacms/volto-europa-analytics": "0.1.1",
-    "@eeacms/volto-nextcloud-video-block": "0.2.0",
+    "@eeacms/volto-nextcloud-video-block": "0.3.0",
     "@plone/volto": "16.8.1"
   },
   "devDependencies": {
