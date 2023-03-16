@@ -35,6 +35,7 @@
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-europa-analytics",
     "@eeacms/volto-nextcloud-video-block",
+    "@eeacms/volto-newsletter-block",
     "@eeacms/volto-climate-advisory-board-policy"
   ],
   "jest": {
