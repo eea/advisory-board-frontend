@@ -7,6 +7,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-newsletter-block": {
+    "url": "git@github.com:eea/volto-newsletter-block.git",
+    "https": "https://github.com/eea/volto-newsletter-block.git",
+    "package": "@eeacms/volto-newsletter-block",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-europa-analytics": {
     "url": "git@github.com:eea/volto-europa-analytics.git",
     "https": "https://github.com/eea/volto-europa-analytics.git",
@@ -229,14 +237,6 @@
     "package": "@eeacms/volto-eea-kitkat",
     "branch": "develop",
     "develop": false,
-    "path": "src"
-  },
-  "volto-climate-advisory-board-policy": {
-    "url": "git@github.com:eea/volto-climate-advisory-board-policy.git",
-    "https": "https://github.com/eea/volto-climate-advisory-board-policy.git",
-    "package": "@eeacms/volto-climate-advisory-board-policy",
-    "branch": "develop",
-    "develop": true,
     "path": "src"
   }
 }

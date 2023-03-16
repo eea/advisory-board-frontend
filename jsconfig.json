@@ -3,6 +3,9 @@
         "paths": {
             "@eeacms/volto-climate-advisory-board-policy": [
                 "addons/volto-climate-advisory-board-policy/src"
+            ],
+            "@eeacms/volto-newsletter-block": [
+                "addons/volto-newsletter-block/src"
             ]
         },
         "baseUrl": "src"
