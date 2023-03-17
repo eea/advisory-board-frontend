@@ -177,6 +177,11 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
     setVisible(visible);
     setTopPage(isTopPage);
   }
+
+  const redirectToPage = (item) => {
+    history.push(item);
+  };
+
   return (
     <div
       className={`eea header ${
@@ -223,31 +228,6 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
               </div>
             </Header.TopDropdownMenu>
           </Header.TopItem>
-
-          {!!headerOpts.partnerLinks && (
-            <Header.TopItem>
-              <Header.TopDropdownMenu
-                id="theme-sites"
-                text={headerOpts.partnerLinks.title}
-                viewportWidth={width}
-              >
-                <div className="wrapper">
-                  {headerOpts.partnerLinks.links.map((item, index) => (
-                    <Dropdown.Item key={index}>
-                      <a
-                        href={item.href}
-                        className="site"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {item.title}
-                      </a>
-                    </Dropdown.Item>
-                  ))}
-                </div>
-              </Header.TopDropdownMenu>
-            </Header.TopItem>
-          )}
         </Header.TopHeader>
       </div>
       <div className={'main bar'} ref={node}>
@@ -302,7 +282,11 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
                         }
                       >
                         {renderGlobalMenuItem(item, {
-                          onClick: menuOnClick,
+                          onClick: config.settings.ab.noChildrenNavigation.includes(
+                            item.url,
+                          )
+                            ? () => redirectToPage(item.url)
+                            : menuOnClick,
                         })}
                       </Menu.Item>
                     ))}
