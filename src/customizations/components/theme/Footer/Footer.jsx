@@ -8,6 +8,7 @@ import { useSelector, shallowEqual } from 'react-redux';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import EEAFooter from '@eeacms/volto-eea-design-system/ui/Footer/Footer';
 import FooterSites from './FooterSites';
+import FooterActions from './FooterActions';
 import config from '@plone/volto/registry';
 import { Grid } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
@@ -126,13 +127,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="subfooter-other">
-          <h5>Other European Information Systems</h5>
+          <h5>More about climate change in the EU:</h5>
           {/* <EEAFooter.Sites sites={eea.footerOpts.sites} /> */}
           <FooterSites sites={eea.footerOpts.sites} />
         </div>
       </div>
 
-      <EEAFooter.Actions actions={actions} copyright={copyright} />
+      <FooterActions actions={actions} copyright={copyright} />
     </EEAFooter>
   );
 };
