@@ -8,8 +8,6 @@ const CardOrganization = (props) => {
   const desc = description || Description;
   const show = hasDescription && desc;
 
-  console.log({description, Description, organization})
-
   return show ? (
     <>
       {' '}
