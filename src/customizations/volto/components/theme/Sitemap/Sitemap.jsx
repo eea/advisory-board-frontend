@@ -69,14 +69,31 @@ class Sitemap extends Component {
       </ul>
     );
   };
+
+  renderActions = (actions) => {
+    return (
+      <ul>
+        {actions.map((action) => (
+          <li key={action.url}>
+            <Link to={action.url}>{action.title}</Link>
+            {action.actions && this.renderActions(action.actions)}
+          </li>
+        ))}
+      </ul>
+    );
+  };
+
   render() {
-    const { items } = this.props;
+    const { items, actions } = this.props;
     return (
       <div id="page-sitemap">
         <Helmet title={this.props.intl.formatMessage(messages.Sitemap)} />
         <Container className="view-wrapper">
           <h1>{this.props.intl.formatMessage(messages.Sitemap)} </h1>
+          <h3>Primary navigation</h3>
           {items && this.renderItems(items)}
+          <h3>Footer</h3>
+          {actions && this.renderActions(actions)}
         </Container>
       </div>
     );
@@ -89,6 +106,7 @@ export default compose(
     (state) => ({
       items: state.navigation.items,
       lang: state.intl.locale,
+      actions: state.actions?.actions?.footer_actions,
     }),
     { getNavigation, listActions },
   ),
