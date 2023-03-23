@@ -1998,13 +1998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.10":
-  version: 0.1.10
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.10"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.12":
+  version: 0.1.12
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.12"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-  checksum: 6261d956d92cac6e6f0b67b6f410fffc5cfe3dadb99c28b72d9fe88e29d6946b29e51a9d2ca00708fc4cf3a5b046c244d718a26c6230282fc668c97c567f8737
+  checksum: e536542f66e0abce451ed90978e71b4ed9f8b9e2ba43f3a5eca4c403eef597cf46dbd4a3726de935efac95b01611ca1c2ce939b57f71d2caf653d8b7de6f262b
   languageName: node
   linkType: hard
 
@@ -2170,10 +2170,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-newsletter-block@npm:0.1.3":
-  version: 0.1.3
-  resolution: "@eeacms/volto-newsletter-block@npm:0.1.3"
-  checksum: 9bc2413fec47dad9b2ed9ab1a1f928a021eefe7352b0ab288dea937324704767f0219ffffa10e6330276ac884763765bcd096c44470cd5456a949dad9d24cdfc
+"@eeacms/volto-newsletter-block@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@eeacms/volto-newsletter-block@npm:0.1.4"
+  checksum: 9a4c42fa1b0ce1502baa781eb1eb95828a02622458b6e9d9c7a0a744ca69caedde420188d85b2514462f640cd3f5d38faf433f2aa665a0b6427a3e3cf24ae850
   languageName: node
   linkType: hard
 
@@ -6293,12 +6293,12 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.10
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.12
     "@eeacms/volto-eea-design-system": 1.0.2
     "@eeacms/volto-eea-kitkat": 13.0.0
     "@eeacms/volto-eea-website-theme": 1.11.2
     "@eeacms/volto-europa-analytics": 0.1.1
-    "@eeacms/volto-newsletter-block": 0.1.3
+    "@eeacms/volto-newsletter-block": 0.1.4
     "@eeacms/volto-nextcloud-video-block": 0.3.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.8.1
