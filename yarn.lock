@@ -1998,13 +1998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.4"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.11":
+  version: 0.1.11
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.11"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-  checksum: ca68f1e064a4868663a3c8ed2d3d0a7adb0a85d6f5866394f244ffb0f2d18ff42c07c023e96fb88ae25066fe9361de209739cde0e060c55dfc6f13d0f6662d2d
+  checksum: 88271de1756cca49a9790cb4b35252943a139a2db447bc9c7fc79aa67c6bff1f0ffdf370d555950cb9b4b443e77bc68045107538539e93f7bed04d7ec0623e9d
   languageName: node
   linkType: hard
 
@@ -2170,10 +2170,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-newsletter-block@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@eeacms/volto-newsletter-block@npm:0.1.2"
-  checksum: 2ea68ae9dddb10745ca1ca34bd7baa2269c9d00363a785553b3123f6587b1c84dd16bc2b20767bb939af1e678224707b71198cfac23775acd57c45e30357d8b1
+"@eeacms/volto-newsletter-block@npm:0.1.3":
+  version: 0.1.3
+  resolution: "@eeacms/volto-newsletter-block@npm:0.1.3"
+  checksum: 9bc2413fec47dad9b2ed9ab1a1f928a021eefe7352b0ab288dea937324704767f0219ffffa10e6330276ac884763765bcd096c44470cd5456a949dad9d24cdfc
   languageName: node
   linkType: hard
 
@@ -6293,12 +6293,12 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.4
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.11
     "@eeacms/volto-eea-design-system": 1.0.2
     "@eeacms/volto-eea-kitkat": 13.0.0
     "@eeacms/volto-eea-website-theme": 1.11.2
     "@eeacms/volto-europa-analytics": 0.1.1
-    "@eeacms/volto-newsletter-block": 0.1.2
+    "@eeacms/volto-newsletter-block": 0.1.3
     "@eeacms/volto-nextcloud-video-block": 0.3.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.8.1
