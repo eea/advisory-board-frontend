@@ -301,7 +301,7 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
               className="right-menu"
               floated="right"
             >
-              <div className="language-column mobile hidden tablet hidden">
+              {/* <div className="language-column mobile hidden tablet hidden">
                 <Dropdown
                   id={'language-switcher'}
                   className={'item header-top-item'}
@@ -349,7 +349,7 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
                     </ul>
                   </Dropdown.Menu>
                 </Dropdown>
-              </div>
+              </div> */}
               <div className="search-ab">
                 <SearchWidget pathname={pathname} />
               </div>
