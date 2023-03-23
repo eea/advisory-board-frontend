@@ -8,14 +8,12 @@ const CardOrganization = (props) => {
   const desc = description || Description;
   const show = hasDescription && desc;
 
-  return show ? (
+  return (
     <>
-      {' '}
-      <UiCard.Description content={`(${desc})`} />
-      {' '}
-      <UiCard.Description content={organization} />
+      {show && <UiCard.Description content={`(${desc})`} />}
+      {organization && <UiCard.Description content={organization} className='organization-underline'/> }
     </>
-  ) : null;
+  );
 };
 
 export default CardOrganization;
