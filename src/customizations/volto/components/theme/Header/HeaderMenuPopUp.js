@@ -143,15 +143,29 @@ const Countries = ({ menuItem, renderMenuItem }) => (
   </Grid>
 );
 
-const StandardMegaMenuGrid = ({ menuItem, renderMenuItem }) => (
-  <Grid columns={4}>
-    {menuItem.items.map((section, index) => (
-      <Grid.Column key={index}>
-        <Item item={section} renderMenuItem={renderMenuItem} />
-      </Grid.Column>
-    ))}
-  </Grid>
-);
+const StandardMegaMenuGrid = ({ menuItem, renderMenuItem }) => {
+  const parentAsFirstItem = {
+    title: menuItem?.title,
+    url: menuItem?.url,
+    descrition: menuItem?.description,
+    items: [],
+  };
+  const showParent = parentAsFirstItem.title && parentAsFirstItem.url;
+  return (
+    <Grid columns={4}>
+      {showParent && (
+        <Grid.Column>
+          <Item item={parentAsFirstItem} renderMenuItem={renderMenuItem} />
+        </Grid.Column>
+      )}
+      {menuItem.items.map((section, index) => (
+        <Grid.Column key={index}>
+          <Item item={section} renderMenuItem={renderMenuItem} />
+        </Grid.Column>
+      ))}
+    </Grid>
+  );
+};
 
 const FirstLevelContent = ({ element, renderMenuItem, pathName }) => {
   const topics = element.title === 'Topics' ? true : false;
@@ -332,7 +346,6 @@ function HeaderMenuPopUp({
   const menuItem = menuItems.find(
     (current) => current.url === activeItem || current['@id'] === activeItem,
   );
-
   return (
     <Transition visible={visible} animation="slide down" duration={300}>
       <div id="mega-menu" ref={nodeRef}>
@@ -341,27 +354,15 @@ function HeaderMenuPopUp({
             <div className="menu-content tablet hidden mobile hidden">
               {/* Inverted right labeled button as a category title,
                   for topics the button goes inside the grid */}
-              {menuItem.title !== 'Topics' && (
-                <div className="mega-menu-title">
+              {/* {menuItem.title !== 'Topics' && (
+                <div className="mega-menu-title imtheone">
                   {renderMenuItem(
                     menuItem,
-                    { className: 'ui button inverted icon right labeled' },
-                    {
-                      iconPosition: 'right',
-                      children: (
-                        <>
-                          {/* Add word overview to titles */}
-                          <span> overview</span>
-                          <Icon
-                            className={'arrow right icon'}
-                            alt={'Title icon'}
-                          />
-                        </>
-                      ),
-                    },
+                    { className: 'item sub-title' },
+                    {},
                   )}
                 </div>
-              )}
+              )} */}
               {menuItem.title === 'Topics' ? (
                 <Topics menuItem={menuItem} renderMenuItem={renderMenuItem} />
               ) : menuItem.title === 'Countries' ? (
