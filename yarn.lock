@@ -2144,13 +2144,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-hero-block@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-hero-block@npm:5.0.0"
+"@eeacms/volto-hero-block@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@eeacms/volto-hero-block@npm:5.2.0"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": ^1.0.1
-  checksum: ef79549801fc8071f3bce4a89fc12c959c74904931a875a292dcedf77a7f7323a2c28ee689170ac687769862e323d49d7a218b90727cca6b55ed47618753c5e2
+  checksum: 82e3f6e6c5aad776b5266396f24ef10d1eefc62647aeca5c232868b840b61dfa5825d0c3dc1aa5becff9caf01debbc498092aa75da1f557d7e66045c62d5cccc
   languageName: node
   linkType: hard
 
