@@ -1791,13 +1791,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bundled-es-modules/pdfjs-dist@npm:^2.2.228-alpha1":
-  version: 2.2.228-alpha1
-  resolution: "@bundled-es-modules/pdfjs-dist@npm:2.2.228-alpha1"
-  checksum: 7fcb9cfbc82afe9fbcc4c30a599fc623e93bf05e801ab1e4262b7d8f691da845547f8f98946c84fd6fade9a9f528c161e6b5dd5bdfe0b8ce048b4bbfe0689490
-  languageName: node
-  linkType: hard
-
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -2206,33 +2199,6 @@ __metadata:
   checksum: 52756531a02db9eb4b290582a0807d0cac97a303d1db993d9ed9f4cd1aec2ef3afcb00e57757990a47bd5b4e12bb7dbede2beda0fb97b8941090bb2e4a428955
   languageName: node
   linkType: hard
-
-"@eeacms/volto-pdf-block@*, @eeacms/volto-pdf-block@workspace:src/addons/volto-pdf-block":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-pdf-block@workspace:src/addons/volto-pdf-block"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@mikecousins/react-pdf": 5.5.1
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress-fail-fast: ^5.0.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
-
-"@eeacms/volto-pdf-viewer@workspace:src/addons/volto-file-viewer":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-pdf-viewer@workspace:src/addons/volto-file-viewer"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-pdf-block": "*"
-    "@mikecousins/react-pdf": 5.5.1
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress-fail-fast: ^5.0.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
 
 "@eeacms/volto-quote-block@npm:1.0.1":
   version: 1.0.1
@@ -3192,17 +3158,6 @@ __metadata:
   version: 1.6.22
   resolution: "@mdx-js/util@npm:1.6.22"
   checksum: 4b393907e39a1a75214f0314bf72a0adfa5e5adffd050dd5efe9c055b8549481a3cfc9f308c16dfb33311daf3ff63added7d5fd1fe52db614c004f886e0e559a
-  languageName: node
-  linkType: hard
-
-"@mikecousins/react-pdf@npm:5.5.1":
-  version: 5.5.1
-  resolution: "@mikecousins/react-pdf@npm:5.5.1"
-  dependencies:
-    "@bundled-es-modules/pdfjs-dist": ^2.2.228-alpha1
-  peerDependencies:
-    react: ">=16"
-  checksum: a8c19eff10463d63fa4523cf95dcac416c57002e8f87816e67fd2bb21ffc71fb34139f916147f020604375bd940a112f53b290766646f96db3377f7f566e0676
   languageName: node
   linkType: hard
 
