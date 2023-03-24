@@ -2096,17 +2096,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:*":
-  version: 1.11.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.11.0"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    volto-subsites: "*"
-  checksum: f32694076b013e67a986dd920fca61ba4d628d13d43e204d610b55b6921289325a4fe26af25f6af414a76dde50cfcab3108d09365497ae073178819ddd4b8751
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-website-theme@npm:1.11.2":
+"@eeacms/volto-eea-website-theme@npm:*, @eeacms/volto-eea-website-theme@npm:1.11.2":
   version: 1.11.2
   resolution: "@eeacms/volto-eea-website-theme@npm:1.11.2"
   dependencies:
@@ -20432,7 +20422,7 @@ __metadata:
   dependencies:
     prop-types: ^15.7.2
   peerDependencies:
-    react-intl: ^2.2.2 || ^3.0.0
+    react-intl: ^2.2.2 || ^3.0.0
     react-redux: ^5.0.1 || ^6.0.0 || ^7.0.0
   checksum: eece9837c7b97581961732168b2e286e771ad4104bdde94caf3ce61ef51d8daa64b4365d4353901029a0cfa91c411a5149ff8bf0a89ac94eebce93982e1cb0f4
   languageName: node

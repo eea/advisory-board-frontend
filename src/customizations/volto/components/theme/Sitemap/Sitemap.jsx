@@ -89,7 +89,10 @@ class Sitemap extends Component {
       <div id="page-sitemap">
         <Helmet title={this.props.intl.formatMessage(messages.Sitemap)} />
         <Container className="view-wrapper">
-          <h1>{this.props.intl.formatMessage(messages.Sitemap)} </h1>
+          <div className="sitemap-header">
+            <h1>{this.props.intl.formatMessage(messages.Sitemap)} </h1>
+          </div>
+
           <h3>Primary navigation</h3>
           {items && this.renderItems(items)}
           <h3>Footer</h3>
