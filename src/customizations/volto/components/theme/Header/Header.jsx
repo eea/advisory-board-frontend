@@ -351,7 +351,7 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
                 </Dropdown>
               </div> */}
               <div className="search-ab">
-                <SearchWidget pathname={pathname} />
+                <SearchWidget pathname="" />
               </div>
               <Header.BurgerAction
                 className={`mobile ${burger} ${
