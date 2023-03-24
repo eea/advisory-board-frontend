@@ -2096,17 +2096,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:*":
-  version: 1.11.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.11.0"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    volto-subsites: "*"
-  checksum: f32694076b013e67a986dd920fca61ba4d628d13d43e204d610b55b6921289325a4fe26af25f6af414a76dde50cfcab3108d09365497ae073178819ddd4b8751
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-website-theme@npm:1.11.2":
+"@eeacms/volto-eea-website-theme@npm:*, @eeacms/volto-eea-website-theme@npm:1.11.2":
   version: 1.11.2
   resolution: "@eeacms/volto-eea-website-theme@npm:1.11.2"
   dependencies:
