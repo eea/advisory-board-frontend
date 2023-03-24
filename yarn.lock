@@ -1924,18 +1924,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-addon-template@workspace:src/addons/volto-europa-analytics":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-addon-template@workspace:src/addons/volto-europa-analytics"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress-fail-fast: ^5.0.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
-
 "@eeacms/volto-anchors@npm:0.1.5":
   version: 0.1.5
   resolution: "@eeacms/volto-anchors@npm:0.1.5"
@@ -2010,17 +1998,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.14"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": "*"
-  checksum: 18a2173c77d0e376ebac3adf784ea5a0aba4cfc8a51dcec9714472be79dc72164a3d62458b63cd5f4624945d4814aad28a8d3860ab31261db645bc33c6916960
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy":
+"@eeacms/volto-climate-advisory-board-policy@0.1.14, @eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy"
   dependencies:
@@ -2178,21 +2156,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@workspace:src/addons/volto-listing-block":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-listing-block@workspace:src/addons/volto-listing-block"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-widget-theme-picker": ^1.0.1
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-    react-resize-detector: 7.1.2
-    react-slick: 0.29.0
-    slick-carousel: 1.8.1
-  languageName: unknown
-  linkType: soft
-
 "@eeacms/volto-matomo@npm:4.0.2":
   version: 4.0.2
   resolution: "@eeacms/volto-matomo@npm:4.0.2"
@@ -2283,18 +2246,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-underline@workspace:src/addons/volto-slate-underline":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-slate-underline@workspace:src/addons/volto-slate-underline"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress-fail-fast: ^5.0.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
-
 "@eeacms/volto-slate-zotero@npm:5.1.1":
   version: 5.1.1
   resolution: "@eeacms/volto-slate-zotero@npm:5.1.1"
@@ -2304,18 +2255,6 @@ __metadata:
   checksum: d84a27465e7ab5667e9e1200f779e3219514cbcc600af30e3942b6ed8609844e1d358a29782d6916342a75f6457143687bd126ad1cf8f7b32a605270ef3f6312
   languageName: node
   linkType: hard
-
-"@eeacms/volto-slate-zotero@workspace:src/addons/volto-slate-zotero":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-slate-zotero@workspace:src/addons/volto-slate-zotero"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-slate-footnote": "*"
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
 
 "@eeacms/volto-statistic-block@npm:1.0.1":
   version: 1.0.1
