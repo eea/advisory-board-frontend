@@ -1998,13 +1998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.19":
-  version: 0.1.19
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.19"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.20":
+  version: 0.1.20
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.20"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-  checksum: d615e1c624ea54acd6dbc27cd4e0cce377e89800cdaec41ff77c701cf5746e6aaa3eddb5db59d01de61e5ff9db1024ba3fa1e981adaea79be1ed61b3c1193174
+  checksum: 0f3c7c128f470ae6579093a783bdf017ab20b0a675e49e8ec7504267ae7a5459c667e90a42878b894c15373ea617f9860cacdfe052c81f55bfa0b01565d23245
   languageName: node
   linkType: hard
 
@@ -2038,16 +2038,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.0.0-beta.2":
-  version: 1.0.0-beta.2
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-beta.2"
+"@eeacms/volto-eea-design-system@npm:*, @eeacms/volto-eea-design-system@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@eeacms/volto-eea-design-system@npm:1.0.3"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
     react-countup: ^6.3.0
+    react-lazy-load-image-component: 1.5.6
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: a396a1984978d7f47f0362ed0e81757ba7ae11749c586147e24d0dc73f77aee88cdefdad74493ad955ce3727a6b277e1508bc5ff8941b40b66d9c21dbee8e7e7
+  checksum: 6872b13be33cdd520264ebbec9f19ebe2d4ac0b5f8ad9cc00c86cc422e0f43e0376a34cc09aeef68fc18ee6bba9cc5a4c0e6ebbe6a8073aeeaba941f968fd79b
   languageName: node
   linkType: hard
 
@@ -2632,6 +2634,13 @@ __metadata:
     react: ^16.8.0 || ^17
     react-dom: ^16.8.0 || ^17
   checksum: 030380d5ea00234e5aa7e014d4e1d268a3dee2d59a2564e4d6a4083cab9ece84f3f3643a8474b53a18a855a0894e91d33d0e0d756008046d59e750603b5b1557
+  languageName: node
+  linkType: hard
+
+"@fontsource/roboto@npm:4.5.8":
+  version: 4.5.8
+  resolution: "@fontsource/roboto@npm:4.5.8"
+  checksum: 460b6de2c9f7a172192c3f5bdd3aa11f78f0b6660dca9dc2b9d8207272b50c55b5a8f2da68e11e7fbaf44c7d3cf4191030eecce9def79fab75d4cc1de39754e2
   languageName: node
   linkType: hard
 
@@ -6300,7 +6309,7 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.19
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.20
     "@eeacms/volto-eea-design-system": 1.0.3
     "@eeacms/volto-eea-kitkat": 14.0.0
     "@eeacms/volto-eea-website-theme": 1.12.0
@@ -20499,7 +20508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-lazy-load-image-component@npm:^1.4.0":
+"react-lazy-load-image-component@npm:1.5.6, react-lazy-load-image-component@npm:^1.4.0":
   version: 1.5.6
   resolution: "react-lazy-load-image-component@npm:1.5.6"
   dependencies:
