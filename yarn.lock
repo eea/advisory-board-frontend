@@ -1998,7 +1998,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@0.1.23, @eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy":
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.23":
+  version: 0.1.23
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.23"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-eea-website-theme": "*"
+  checksum: 378dde1d4de5f0ae3897f933737d025673994a480a7f4560ecb3f916f9b6d4cbe1c0c550ec3a6756ae81436f0e3d24841610402b096dc30b0d24f61be933520f
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy"
   dependencies:
