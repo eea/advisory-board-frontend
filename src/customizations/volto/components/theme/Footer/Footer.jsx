@@ -55,11 +55,13 @@ const Footer = () => {
       }))
     : eea.footerOpts.social;
 
+  const siteUrl = eea?.logoTargetUrl;
+
   return (
     <EEAFooter>
       <Grid stackable>
         <Grid.Row>
-          <Grid.Column mobile={6} tablet={10} computer={10}>
+          <Grid.Column mobile={6} tablet={9} computer={10}>
             <ul className="footer-nav" id="footer_links">
               <li>
                 <Link className="item" to="/">
@@ -93,17 +95,19 @@ const Footer = () => {
           </Grid.Column>
           <Grid.Column
             mobile={6}
-            tablet={2}
+            tablet={3}
             computer={2}
             className="text-right"
           >
-            <img
-              className="ab-footer"
-              src={logo}
-              alt="ADVISORY"
-              height={80}
-              width={120}
-            />
+            <Link to={siteUrl}>
+              <img
+                className="ab-footer"
+                src={logo}
+                alt="ADVISORY"
+                height={80}
+                width={120}
+              />
+            </Link>
           </Grid.Column>
         </Grid.Row>
       </Grid>
