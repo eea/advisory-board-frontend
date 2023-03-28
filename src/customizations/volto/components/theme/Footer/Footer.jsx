@@ -55,6 +55,8 @@ const Footer = () => {
       }))
     : eea.footerOpts.social;
 
+  const siteUrl = eea?.logoTargetUrl;
+
   return (
     <EEAFooter>
       <Grid stackable>
@@ -97,13 +99,15 @@ const Footer = () => {
             computer={2}
             className="text-right"
           >
-            <img
-              className="ab-footer"
-              src={logo}
-              alt="ADVISORY"
-              height={80}
-              width={120}
-            />
+            <Link to={siteUrl}>
+              <img
+                className="ab-footer"
+                src={logo}
+                alt="ADVISORY"
+                height={80}
+                width={120}
+              />
+            </Link>
           </Grid.Column>
         </Grid.Row>
       </Grid>
