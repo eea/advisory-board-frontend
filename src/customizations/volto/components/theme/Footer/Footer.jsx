@@ -55,16 +55,11 @@ const Footer = () => {
       }))
     : eea.footerOpts.social;
 
-  // Update options with actions from backend
-  const options = {
-    social,
-  };
-
   return (
     <EEAFooter>
       <Grid stackable>
         <Grid.Row>
-          <Grid.Column mobile={16} tablet={10} computer={10}>
+          <Grid.Column mobile={6} tablet={10} computer={10}>
             <ul className="footer-nav" id="footer_links">
               <li>
                 <Link className="item" to="/">
@@ -96,39 +91,45 @@ const Footer = () => {
               </li>
             </ul>
           </Grid.Column>
-          <Grid.Column mobile={16} tablet={2} computer={2}>
+          <Grid.Column
+            mobile={6}
+            tablet={2}
+            computer={2}
+            className="text-right"
+          >
             <img
               className="ab-footer"
               src={logo}
               alt="ADVISORY"
               height={80}
-              width={150}
+              width={120}
             />
           </Grid.Column>
         </Grid.Row>
       </Grid>
       <hr />
-      <div className="subfooter-info">
-        <div className="subfooter-social">
-          <h5>Follow us</h5>
-          <EEAFooter.SubFooter {...options} />
-        </div>
-        <div className="subfooter-contact">
-          <h5>Contact us</h5>
-          <div className="subfooter-contact-info">
-            <a href="/contact">
-              <i aria-hidden="true" className="icon mail outline"></i>
-              Send us an e-mail
-            </a>
-            <a href="/contact">
-              <i aria-hidden="true" className="icon call"></i>
-              Call us
-            </a>
+      <div className="subfooter">
+        <div className="subfooter-info">
+          <div className="subfooter-social">
+            <h5>Follow us</h5>
+            <EEAFooter.Social social={social} />
+          </div>
+          <div className="subfooter-contact">
+            <h5>Contact us</h5>
+            <div className="subfooter-contact-info">
+              <a href="/contact">
+                <i aria-hidden="true" className="icon mail outline"></i>
+                Send us an e-mail
+              </a>
+              <a href="/contact">
+                <i aria-hidden="true" className="icon call"></i>
+                Call us
+              </a>
+            </div>
           </div>
         </div>
         <div className="subfooter-other">
           <h5>More about climate change in the EU:</h5>
-          {/* <EEAFooter.Sites sites={eea.footerOpts.sites} /> */}
           <FooterSites sites={eea.footerOpts.sites} />
         </div>
       </div>

@@ -6,6 +6,9 @@
             ],
             "@eeacms/volto-newsletter-block": [
                 "addons/volto-newsletter-block/src"
+            ],
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
             ]
         },
         "baseUrl": "src"
