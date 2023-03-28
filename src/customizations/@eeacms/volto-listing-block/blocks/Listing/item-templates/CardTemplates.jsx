@@ -6,9 +6,72 @@ import {
   CardTitle,
   CardMeta,
   CardExtra,
-  CardImage,
+  // CardImage,
 } from '@eeacms/volto-listing-block/components/UniversalCard';
 import CardOrganization from '../../../../../../components/CardOrganization';
+import { ConditionalLink } from '@plone/volto/components';
+import { Card } from 'semantic-ui-react';
+
+import PreviewImage from '@eeacms/volto-listing-block/PreviewImage';
+
+const getLabel = (props) => {
+  const { item, itemModel = {} } = props;
+  const text = item.isNew ? 'New' : item.isExpired ? 'Archived' : null;
+
+  return itemModel?.hasLabel && text
+    ? {
+        text,
+        side: 'left',
+        // TODO: set the colors from css?
+        color: item.isExpired ? 'yellow' : 'green',
+      }
+    : null;
+};
+
+const CardTitleOnImage = (props) => {
+  const { item, itemModel = {} } = props;
+  return itemModel?.titleOnImage ? (
+    <div className="gradient">
+      <Card.Header>{item.title}</Card.Header>
+    </div>
+  ) : null;
+};
+
+const CardImage = (props) => {
+  const { item, isEditMode, preview_image, itemModel } = props;
+  const label = getLabel(props);
+  return (
+    <ConditionalLink
+      className="image"
+      item={item}
+      condition={!isEditMode && itemModel?.hasLink}
+    >
+      {!isEditMode && itemModel?.hasLink ? (
+        <>
+          <PreviewImage
+            item={item}
+            preview_image={preview_image}
+            alt={item.title}
+            size="teaser"
+            label={label}
+          />
+          <CardTitleOnImage {...props} />
+        </>
+      ) : (
+        <div className={'image'}>
+          <PreviewImage
+            item={item}
+            preview_image={preview_image}
+            alt={item.title}
+            size="teaser"
+            label={label}
+          />
+          <CardTitleOnImage {...props} />
+        </div>
+      )}
+    </ConditionalLink>
+  );
+};
 
 const getStyles = (props) => {
   const { itemModel = {} } = props;
@@ -24,14 +87,13 @@ const getStyles = (props) => {
 
 const BasicCard = (props) => {
   const { className } = props;
-
   return (
     <UiCard fluid={true} className={cx('u-card', getStyles(props), className)}>
       <CardImage {...props} />
       <UiCard.Content>
         <CardMeta {...props} />
         <CardTitle {...props} />
-        <CardOrganization {...props}/>
+        <CardOrganization {...props} />
       </UiCard.Content>
       <CardExtra {...props} />
     </UiCard>
