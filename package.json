@@ -2,7 +2,7 @@
   "name": "advisory-board-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -139,13 +139,13 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-climate-advisory-board-policy": "0.1.24",
+    "@eeacms/volto-climate-advisory-board-policy": "0.1.25",
     "@eeacms/volto-eea-design-system": "1.0.5",
     "@eeacms/volto-eea-kitkat": "15.0.0",
     "@eeacms/volto-eea-website-theme": "1.13.0",
     "@eeacms/volto-europa-analytics": "0.1.1",
-    "@eeacms/volto-newsletter-block": "0.1.8",
-    "@eeacms/volto-nextcloud-video-block": "0.3.0",
+    "@eeacms/volto-newsletter-block": "0.1.10",
+    "@eeacms/volto-nextcloud-video-block": "0.3.1",
     "@eeacms/volto-resize-helper": "1.1.0",
     "@plone/volto": "16.8.1"
   },
