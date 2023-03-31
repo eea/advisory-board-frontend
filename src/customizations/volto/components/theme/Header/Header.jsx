@@ -189,6 +189,9 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
     if (!pathname) {
       setActiveItem('');
     }
+    if (pathname !== activeItem) {
+      setActiveItem(pathname);
+    }
   }, [pathname]);
 
   useEffect(() => {
