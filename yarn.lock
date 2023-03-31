@@ -1998,13 +1998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.26":
-  version: 0.1.26
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.26"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.27":
+  version: 0.1.27
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.27"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-  checksum: c983cbf3eb764abe709a37c2a8b0b9570509f499d0240d9bda0904bf9765cab5dcb0c7c7f4921c30e4919e1fd7205e58e29a0206140d75e8550a79dd1f26f07a
+  checksum: 48f4016b07311302355e8f3f5980e011b5278c0036b0d02306e82cbbbe359b8e5d93b01d8d2ff6c1a03c3f5dce1e2f4b07e78013edbb0d2f51b5e34ec9fbeb68
   languageName: node
   linkType: hard
 
@@ -2185,10 +2185,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-newsletter-block@npm:0.1.10":
-  version: 0.1.10
-  resolution: "@eeacms/volto-newsletter-block@npm:0.1.10"
-  checksum: c0b5b235ff1a2ec71aa1390a558fa299ad4918987307f918a3c360c50e93bf283cb1014e0d3e8d2cf6c10ab171d5993036fbbe458101c43378b5cdcd7ecdb904
+"@eeacms/volto-newsletter-block@npm:0.1.11":
+  version: 0.1.11
+  resolution: "@eeacms/volto-newsletter-block@npm:0.1.11"
+  checksum: e02a648f1c2716a4af0a8cc4f876e9d8b3ed0599ac468b29d6d135401b2a6122970676621c2a0505b4b1bb94e04e70267eb14284004decea76306c373f1b4335
   languageName: node
   linkType: hard
 
@@ -6349,12 +6349,12 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.26
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.27
     "@eeacms/volto-eea-design-system": 1.0.6
     "@eeacms/volto-eea-kitkat": 15.0.0
     "@eeacms/volto-eea-website-theme": 1.13.0
     "@eeacms/volto-europa-analytics": 0.1.1
-    "@eeacms/volto-newsletter-block": 0.1.10
+    "@eeacms/volto-newsletter-block": 0.1.11
     "@eeacms/volto-nextcloud-video-block": 0.3.1
     "@eeacms/volto-resize-helper": 1.1.0
     "@plone/scripts": ^2.1.5

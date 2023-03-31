@@ -151,7 +151,8 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
     prevYOffset.current = pageYOffset;
   }
 
-  const redirectToPage = (item) => {
+  const redirectToPage = (e, item) => {
+    setMenuIsActive(false);
     setActiveItem(item['@id'] || item['url']);
     history.push(item.url);
   };
@@ -187,6 +188,9 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
     // remove active menu when we have no pathname which means we hit logo to go home
     if (!pathname) {
       setActiveItem('');
+    }
+    if (pathname !== activeItem) {
+      setActiveItem(pathname);
     }
   }, [pathname]);
 
@@ -295,7 +299,7 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
                         >
                           {renderGlobalMenuItem(item, {
                             onClick: noChildrenNavigation.includes(item.url)
-                              ? () => redirectToPage(item)
+                              ? redirectToPage
                               : menuOnClick,
                           })}
                         </Menu.Item>
@@ -347,6 +351,7 @@ const EEAHeader = ({ pathname, token, items, history, subsite }) => {
               onClose={menuOnClickOutside}
               triggerRefs={[mobileMenuBurgerRef, desktopMenuRef]}
               visible={menuIsActive}
+              noChildrenNavigation={noChildrenNavigation}
             />
           </Container>
         </div>
