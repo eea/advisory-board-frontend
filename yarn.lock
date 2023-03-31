@@ -1998,13 +1998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.26":
-  version: 0.1.26
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.26"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.27":
+  version: 0.1.27
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.27"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-  checksum: c983cbf3eb764abe709a37c2a8b0b9570509f499d0240d9bda0904bf9765cab5dcb0c7c7f4921c30e4919e1fd7205e58e29a0206140d75e8550a79dd1f26f07a
+  checksum: 48f4016b07311302355e8f3f5980e011b5278c0036b0d02306e82cbbbe359b8e5d93b01d8d2ff6c1a03c3f5dce1e2f4b07e78013edbb0d2f51b5e34ec9fbeb68
   languageName: node
   linkType: hard
 
@@ -6349,7 +6349,7 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.26
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.27
     "@eeacms/volto-eea-design-system": 1.0.6
     "@eeacms/volto-eea-kitkat": 15.0.0
     "@eeacms/volto-eea-website-theme": 1.13.0
