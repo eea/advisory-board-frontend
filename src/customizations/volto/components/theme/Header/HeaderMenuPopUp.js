@@ -32,14 +32,21 @@ const Item = ({ item, icon = false, iconName, renderMenuItem }) => (
   </>
 );
 
-const StandardMegaMenuGrid = ({ menuItem, renderMenuItem }) => {
+const StandardMegaMenuGrid = ({
+  menuItem,
+  renderMenuItem,
+  noChildrenNavigation,
+}) => {
   const parentAsFirstItem = {
     title: menuItem?.title,
     url: menuItem?.url,
     descrition: menuItem?.description,
     items: [],
   };
-  const showParent = parentAsFirstItem.title && parentAsFirstItem.url;
+  const showParent =
+    parentAsFirstItem.title &&
+    parentAsFirstItem.url &&
+    !noChildrenNavigation.includes(parentAsFirstItem['url']);
   return (
     <Grid columns={4}>
       {showParent && (
@@ -47,11 +54,14 @@ const StandardMegaMenuGrid = ({ menuItem, renderMenuItem }) => {
           <Item item={parentAsFirstItem} renderMenuItem={renderMenuItem} />
         </Grid.Column>
       )}
-      {menuItem.items.map((section, index) => (
-        <Grid.Column key={index}>
-          <Item item={section} renderMenuItem={renderMenuItem} />
-        </Grid.Column>
-      ))}
+      {menuItem.items.map(
+        (section, index) =>
+          !noChildrenNavigation.includes(parentAsFirstItem['url']) && (
+            <Grid.Column key={index}>
+              <Item item={section} renderMenuItem={renderMenuItem} />
+            </Grid.Column>
+          ),
+      )}
     </Grid>
   );
 };
@@ -252,6 +262,7 @@ function HeaderMenuPopUp({
   triggerRefs,
   activeItem,
   visible,
+  noChildrenNavigation,
 }) {
   const nodeRef = React.useRef();
   useClickOutside({ targetRefs: [nodeRef, ...triggerRefs], callback: onClose });
@@ -269,6 +280,7 @@ function HeaderMenuPopUp({
               <StandardMegaMenuGrid
                 menuItem={menuItem}
                 renderMenuItem={renderMenuItem}
+                noChildrenNavigation={noChildrenNavigation}
               />
             </div>
           )}
