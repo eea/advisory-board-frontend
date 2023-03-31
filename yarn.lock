@@ -2243,6 +2243,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-resize-helper@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@eeacms/volto-resize-helper@npm:1.2.0"
+  checksum: 86611eb7970e09da302d701b119eb1cd4ccfb80c2e7161b21d586400b2e4789f7917f3384d29ed0538c3e76735c325bdd99a8a4727ab7b81d27fc5bcc9b5aa72
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-sentry-rancher-config@npm:3.1.0":
   version: 3.1.0
   resolution: "@eeacms/volto-sentry-rancher-config@npm:3.1.0"
@@ -6356,7 +6363,7 @@ __metadata:
     "@eeacms/volto-europa-analytics": 0.1.1
     "@eeacms/volto-newsletter-block": 0.1.11
     "@eeacms/volto-nextcloud-video-block": 0.3.1
-    "@eeacms/volto-resize-helper": 1.1.0
+    "@eeacms/volto-resize-helper": 1.2.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.8.1
     "@storybook/addon-actions": ^6.3.0
