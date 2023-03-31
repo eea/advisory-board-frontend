@@ -2,7 +2,7 @@
   "name": "advisory-board-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.30.0",
+  "version": "0.31.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
