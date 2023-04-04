@@ -28,15 +28,6 @@ const newsLetterFormHTML = `<div class style="min-height: calc(100vh - 15rem); p
                                   </div>
                                   <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true" />
                                </div>
-                               <div>
-                                  <div>
-                                     <div class="sc-bwzfXH ebeRtN">
-                                        <input id="cm-privacy-email" name="cm-privacy-email" type="checkbox" class="qa-checkbox-cm-privacy-email sc-bZQynM eKOoKL" /><label size="0.875rem" color="#434d5d" for="cm-privacy-email" class="sc-bxivhb cOxhZt">I agree to have my response to ESABCC newsletters tracked (for example opened newsletter, link clicks, city location)</label>
-                                        <div id="cm-privacy-email-required-label" hidden class="sc-EHOje jMsntP">*</div>
-                                     </div>
-                                  </div>
-                                  <input id="cm-privacy-email-hidden" name="cm-privacy-email-hidden" type="hidden" value="true" />
-                               </div>
                             </div>
                          </div>
                          <div>

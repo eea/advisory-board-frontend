@@ -1829,6 +1829,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cypress/code-coverage@npm:^3.10.0":
+  version: 3.10.1
+  resolution: "@cypress/code-coverage@npm:3.10.1"
+  dependencies:
+    "@cypress/webpack-preprocessor": ^5.11.0
+    chalk: 4.1.2
+    dayjs: 1.10.7
+    debug: 4.3.4
+    execa: 4.1.0
+    globby: 11.0.4
+    istanbul-lib-coverage: 3.0.0
+    js-yaml: 4.1.0
+    nyc: 15.1.0
+  peerDependencies:
+    cypress: "*"
+  checksum: ab67b0daa8b90385b096b94daef66a9e8c3eb6363d8fea2c0cefdfa2059bc988003806c2b659e606eb34d9bbad4ee7d83c3e150163cdeb819e4e9befadcbf879
+  languageName: node
+  linkType: hard
+
 "@cypress/request@npm:^2.88.10":
   version: 2.88.10
   resolution: "@cypress/request@npm:2.88.10"
@@ -1998,13 +2017,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.27":
-  version: 0.1.27
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.27"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.28":
+  version: 0.1.28
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.28"
   dependencies:
+    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
-  checksum: 48f4016b07311302355e8f3f5980e011b5278c0036b0d02306e82cbbbe359b8e5d93b01d8d2ff6c1a03c3f5dce1e2f4b07e78013edbb0d2f51b5e34ec9fbeb68
+  checksum: 918e0212d864e1aff30e42544b8e94e2ff347cbfda668c13ddb227cc90b92fa687087af75e2dc20caa419aee72ccac0f956422bd5f4760403a8055c8a135c88d
   languageName: node
   linkType: hard
 
@@ -2045,22 +2065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:*":
-  version: 1.0.5
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.5"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@fontsource/roboto": 4.5.8
-    react-countup: ^6.3.0
-    react-lazy-load-image-component: 1.5.6
-    react-slick: ^0.28.1
-    remixicon: 2.5.0
-    slick-carousel: ^1.8.1
-  checksum: 5ff6d4635082e202b752115a60f509c05dd98c3439d767af62ca2437e192e4fd52f098f0453d5b8b07e77f7bfd5f4a16a45007be9b2b1ecaa230bbfacd7c2a65
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-design-system@npm:1.0.6":
+"@eeacms/volto-eea-design-system@npm:*, @eeacms/volto-eea-design-system@npm:1.0.6":
   version: 1.0.6
   resolution: "@eeacms/volto-eea-design-system@npm:1.0.6"
   dependencies:
@@ -2185,10 +2190,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-newsletter-block@npm:0.1.11":
-  version: 0.1.11
-  resolution: "@eeacms/volto-newsletter-block@npm:0.1.11"
-  checksum: e02a648f1c2716a4af0a8cc4f876e9d8b3ed0599ac468b29d6d135401b2a6122970676621c2a0505b4b1bb94e04e70267eb14284004decea76306c373f1b4335
+"@eeacms/volto-newsletter-block@npm:0.1.12":
+  version: 0.1.12
+  resolution: "@eeacms/volto-newsletter-block@npm:0.1.12"
+  checksum: 1986554722aca85d0be6741f515d93b0623a88937a23f6fc811c21f7949cae3163e84b101b7dddb408f8c15b1d4df5f7195aef8f985d09fa7affcf3d6d84e196
   languageName: node
   linkType: hard
 
@@ -2240,6 +2245,13 @@ __metadata:
   version: 1.1.0
   resolution: "@eeacms/volto-resize-helper@npm:1.1.0"
   checksum: 1810c8ff333b6f7868d2358ecc994c85cecfe0467d33ab9908f4e139fb246e1b7c97381270695f8d46542b76d111f3b3f728810354ac7a25ae6b815cfb627bbe
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-resize-helper@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@eeacms/volto-resize-helper@npm:1.2.0"
+  checksum: 86611eb7970e09da302d701b119eb1cd4ccfb80c2e7161b21d586400b2e4789f7917f3384d29ed0538c3e76735c325bdd99a8a4727ab7b81d27fc5bcc9b5aa72
   languageName: node
   linkType: hard
 
@@ -6349,14 +6361,14 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": 3.10.0
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.27
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.28
     "@eeacms/volto-eea-design-system": 1.0.6
     "@eeacms/volto-eea-kitkat": 15.0.0
     "@eeacms/volto-eea-website-theme": 1.13.0
     "@eeacms/volto-europa-analytics": 0.1.1
-    "@eeacms/volto-newsletter-block": 0.1.11
+    "@eeacms/volto-newsletter-block": 0.1.12
     "@eeacms/volto-nextcloud-video-block": 0.3.1
-    "@eeacms/volto-resize-helper": 1.1.0
+    "@eeacms/volto-resize-helper": 1.2.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.8.1
     "@storybook/addon-actions": ^6.3.0
@@ -6722,6 +6734,13 @@ __metadata:
   dependencies:
     sprintf-js: ~1.0.2
   checksum: 7ca6e45583a28de7258e39e13d81e925cfa25d7d4aacbf806a382d3c02fcb13403a07fb8aeef949f10a7cfe4a62da0e2e807b348a5980554cc28ee573ef95945
+  languageName: node
+  linkType: hard
+
+"argparse@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "argparse@npm:2.0.1"
+  checksum: 83644b56493e89a254bae05702abf3a1101b4fa4d0ca31df1c9985275a5a5bd47b3c27b7fa0b71098d41114d8ca000e6ed90cad764b306f8a503665e4d517ced
   languageName: node
   linkType: hard
 
@@ -15672,6 +15691,17 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: bef146085f472d44dee30ec34e5cf36bf89164f5d585435a3d3da89e52622dff0b188a580e4ad091c3341889e14cb88cac6e4deb16dc5b1e9623bb0601fc255c
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:4.1.0":
+  version: 4.1.0
+  resolution: "js-yaml@npm:4.1.0"
+  dependencies:
+    argparse: ^2.0.1
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: c7830dfd456c3ef2c6e355cc5a92e6700ceafa1d14bba54497b34a99f0376cecbb3e9ac14d3e5849b426d5a5140709a66237a8c991c675431271c4ce5504151a
   languageName: node
   linkType: hard
 
