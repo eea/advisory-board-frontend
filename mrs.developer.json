@@ -262,5 +262,13 @@
     "branch": "develop",
     "develop": false,
     "path": "src"
+  },
+  "volto-spotlight": {
+    "url": "git@github.com:eea/volto-spotlight.git",
+    "https": "https://github.com/eea/volto-spotlight.git",
+    "package": "@eeacms/volto-spotlight",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   }
 }

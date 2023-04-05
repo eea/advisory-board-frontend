@@ -16,10 +16,8 @@
 // All your imports required for the config here BEFORE this line
 import '@plone/volto/config';
 
-import installBlocks from './components/manage/Blocks';
-
 export default function applyConfig(config) {
   // Add here your project's configuration here by modifying `config` accordingly
 
-  return [installBlocks].reduce((acc, apply) => apply(acc), config);
+  return config;
 }

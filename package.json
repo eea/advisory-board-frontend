@@ -34,6 +34,7 @@
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
+    "@eeacms/volto-spotlight",
     "@eeacms/volto-europa-analytics",
     "@eeacms/volto-nextcloud-video-block",
     "@eeacms/volto-climate-advisory-board-policy"
@@ -147,6 +148,7 @@
     "@eeacms/volto-newsletter-block": "0.1.12",
     "@eeacms/volto-nextcloud-video-block": "0.3.1",
     "@eeacms/volto-resize-helper": "1.2.0",
+    "@eeacms/volto-spotlight": "2.0.0",
     "@plone/volto": "16.8.1"
   },
   "devDependencies": {
