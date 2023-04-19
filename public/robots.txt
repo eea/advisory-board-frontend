@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /api
-Disallow: /*login$
-
-Sitemap: https://industry.eea.europa.eu/sitemap.xml.gz
