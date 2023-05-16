@@ -2133,6 +2133,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-europa-analytics@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@eeacms/volto-europa-analytics@npm:0.1.2"
+  checksum: 63ab3cc607e98f3dd2cc02679cfdaff4257cc58f269ff0f807d471bb2cf5022ced35ad355993034a213dc06cd295c647c3c56423e7e1e34a185da13ce6227215
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-group-block@npm:6.1.0":
   version: 6.1.0
   resolution: "@eeacms/volto-group-block@npm:6.1.0"
@@ -6372,6 +6379,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.11.0
     "@eeacms/volto-eea-kitkat": 15.3.0
     "@eeacms/volto-eea-website-theme": 1.14.0
+    "@eeacms/volto-europa-analytics": 0.1.2
     "@eeacms/volto-newsletter-block": 0.1.13
     "@eeacms/volto-nextcloud-video-block": 0.3.1
     "@eeacms/volto-resize-helper": 1.3.1
