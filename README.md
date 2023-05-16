@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/advisory-board-frontend?sort=semver)](https://github.com/eea/advisory-board-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fadvisory-board-frontend%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/advisory-board-frontend/job/master/lastBuild/display/redirect)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fadvisory-board-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/advisory-board-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fadvisory-board-frontend%2F0.48.0&build=last&subject=release%20v0.48.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/advisory-board-frontend/job/0.48.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fadvisory-board-frontend%2F0.49.0&build=last&subject=release%20v0.49.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/advisory-board-frontend/job/0.49.0/lastBuild/display/redirect/)
 
 
 ## Documentation
