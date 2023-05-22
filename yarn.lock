@@ -2133,10 +2133,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-europa-analytics@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@eeacms/volto-europa-analytics@npm:0.1.4"
-  checksum: 52e5161f485bccdfaa4012d39f58e649edfc0efdf433f0602e79859aad4b30c0c542f687ff94e5ac52590314944961e04e25e8954d3b4c391ee5c8a19d2f8e8b
+"@eeacms/volto-europa-analytics@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@eeacms/volto-europa-analytics@npm:0.1.5"
+  checksum: 45385623082f05b2337f6a1000b2273fb0c66bc19c87a320a58656274361102062c055e26fc976122e232360d1f6e7350bdd42f3b4f786007294d9b93210b5a6
   languageName: node
   linkType: hard
 
@@ -6394,7 +6394,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.12.0
     "@eeacms/volto-eea-kitkat": 15.4.0
     "@eeacms/volto-eea-website-theme": 1.14.1
-    "@eeacms/volto-europa-analytics": 0.1.4
+    "@eeacms/volto-europa-analytics": 0.1.5
     "@eeacms/volto-newsletter-block": 0.1.13
     "@eeacms/volto-nextcloud-video-block": 0.3.1
     "@eeacms/volto-resize-helper": 1.3.1
