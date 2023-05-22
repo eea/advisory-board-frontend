@@ -2307,12 +2307,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@npm:2.0.4":
-  version: 2.0.4
-  resolution: "@eeacms/volto-spotlight@npm:2.0.4"
+"@eeacms/volto-spotlight@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@eeacms/volto-spotlight@npm:2.0.5"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: f968bafb010dc1896f88ccd566b11585870321bf271f8e5b3668c4346bf2bde5c356e11301f61f59c9489a2fa2cd51fc86065149f765b175ae7b36c40ba50820
+  checksum: 6484d9397672b9882a00721978c00b8f6ccf3a228999e74876f8cd437fbc9d50837667f505fa707af03fe3be961af8a806b44e8ced5171e4c244208ee18b13f3
   languageName: node
   linkType: hard
 
@@ -6398,7 +6398,7 @@ __metadata:
     "@eeacms/volto-newsletter-block": 0.1.13
     "@eeacms/volto-nextcloud-video-block": 0.3.1
     "@eeacms/volto-resize-helper": 1.3.1
-    "@eeacms/volto-spotlight": 2.0.4
+    "@eeacms/volto-spotlight": 2.0.5
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.20.4
     "@storybook/addon-actions": ^6.3.0
