@@ -2133,13 +2133,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-europa-analytics@npm:0.1.5":
-  version: 0.1.5
-  resolution: "@eeacms/volto-europa-analytics@npm:0.1.5"
-  checksum: 45385623082f05b2337f6a1000b2273fb0c66bc19c87a320a58656274361102062c055e26fc976122e232360d1f6e7350bdd42f3b4f786007294d9b93210b5a6
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-group-block@npm:6.1.0":
   version: 6.1.0
   resolution: "@eeacms/volto-group-block@npm:6.1.0"
@@ -2307,12 +2300,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@npm:2.0.7":
-  version: 2.0.7
-  resolution: "@eeacms/volto-spotlight@npm:2.0.7"
+"@eeacms/volto-spotlight@npm:2.0.8":
+  version: 2.0.8
+  resolution: "@eeacms/volto-spotlight@npm:2.0.8"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: ab2dd3c59749e08733a81fdb08b336fed502a8c412a9182b2c1d0c7367c77dd2a6cb814ffc17e6ec3f7697927a0279a359719900aa6006017fb9154def3aa6d6
+  checksum: 37c27653e736e927510e077751fe369880a49b358b147a2c8649720371cefe3c464c425a1d3faeb1427d099ac19faafa301a7626c44d160917454205f1aa1356
   languageName: node
   linkType: hard
 
@@ -6394,11 +6387,10 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.12.1
     "@eeacms/volto-eea-kitkat": 15.4.0
     "@eeacms/volto-eea-website-theme": 1.15.0
-    "@eeacms/volto-europa-analytics": 0.1.5
     "@eeacms/volto-newsletter-block": 0.1.13
     "@eeacms/volto-nextcloud-video-block": 0.3.1
     "@eeacms/volto-resize-helper": 1.3.1
-    "@eeacms/volto-spotlight": 2.0.7
+    "@eeacms/volto-spotlight": 2.0.8
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.20.4
     "@storybook/addon-actions": ^6.3.0
