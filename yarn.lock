@@ -1915,6 +1915,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/countup@npm:*":
+  version: 2.0.4
+  resolution: "@eeacms/countup@npm:2.0.4"
+  dependencies:
+    use-elapsed-time: 3.0.2
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: e3cbaf7913cf5103fa0ef37f159cd325503866040a396cf7a8711649645edc49a94a67288cd26e9693f436d26a4bfe31f6834ed6f6feb7f7d055a867f35f5127
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-accordion-block@npm:9.2.0":
   version: 9.2.0
   resolution: "@eeacms/volto-accordion-block@npm:9.2.0"
@@ -2065,18 +2076,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.14.0":
-  version: 1.14.0
-  resolution: "@eeacms/volto-eea-design-system@npm:1.14.0"
+"@eeacms/volto-eea-design-system@npm:1.15.0":
+  version: 1.15.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.15.0"
   dependencies:
+    "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
     "@fontsource/roboto": 4.5.8
-    react-countup: ^6.3.0
     react-lazy-load-image-component: 1.5.6
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: 77b5f9e6259bdc9cc138eb60326158b38aafc18a1a928dfefd07dbcb3b52602833f77fdcef1cf83500db5a58358422196c6c81e6b2d039f910a97a757970a5e6
+  checksum: e2e4358aec877c936740824220c1274b2d25a8cfe70e92d759c804e71c2cc57c56f65bb06aa79a672aca81b1eaba84a596b427ae2c48fbdc7fff0f929b22663d
   languageName: node
   linkType: hard
 
@@ -6440,7 +6451,7 @@ __metadata:
   dependencies:
     "@cypress/code-coverage": 3.10.0
     "@eeacms/volto-climate-advisory-board-policy": 0.1.39
-    "@eeacms/volto-eea-design-system": 1.14.0
+    "@eeacms/volto-eea-design-system": 1.15.0
     "@eeacms/volto-eea-kitkat": 16.1.0
     "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-newsletter-block": 0.1.13
@@ -25278,6 +25289,15 @@ __metadata:
   peerDependencies:
     react: ">=16.13"
   checksum: 2b9b6291df3f772f44d259b352e5d998963ccee0db2efeb76bb05525d928064aeeb69bb0dee5a5e428fea7cf3db67c097a770ebd30caa080662b565f6ef02b2e
+  languageName: node
+  linkType: hard
+
+"use-elapsed-time@npm:3.0.2":
+  version: 3.0.2
+  resolution: "use-elapsed-time@npm:3.0.2"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 9ba8ef6d05b8137fd715ace7303edc2fdc412f372f158bfa659926b0cb356654be84664f912d016f99deb2f3951236443feb84b78318755d5984c340dcb418a6
   languageName: node
   linkType: hard
 
