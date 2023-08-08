@@ -139,7 +139,7 @@
     "node": "^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-climate-advisory-board-policy": "0.1.39",
+    "@eeacms/volto-climate-advisory-board-policy": "0.1.40",
     "@eeacms/volto-eea-design-system": "1.15.0",
     "@eeacms/volto-eea-kitkat": "17.0.0",
     "@eeacms/volto-eea-website-theme": "1.18.1",
