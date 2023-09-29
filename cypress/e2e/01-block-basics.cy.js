@@ -11,7 +11,7 @@ describe('Blocks Tests', () => {
 
     cy.get('.documentFirstHeading').contains('My Add-on Page');
 
-    cy.getSlate().click();
+    cy.getSlate().click({force: true});
 
     // Add block
     cy.get('.ui.basic.icon.button.block-add-button').first().click();
