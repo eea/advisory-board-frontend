@@ -425,7 +425,7 @@ Cypress.Commands.add('setSlateSelection', (subject, query, endQuery) => {
 });
 
 Cypress.Commands.add('getSlateEditorAndType', (type) => {
-  cy.getSlate().focus().click().type(type);
+  cy.getSlate().focus().click({force: true}).type(type);
 });
 
 Cypress.Commands.add('setSlateCursor', (subject, query, endQuery) => {

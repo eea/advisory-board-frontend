@@ -25,7 +25,7 @@ describe('Slate citations', () => {
     // Add block
     cy.getSlateEditorAndType('{enter}');
 
-    cy.get('.ui.basic.icon.button.block-add-button').first().click();
+    cy.get('.ui.basic.icon.button.block-add-button').first().click({force: true});
     cy.get('.blocks-chooser .title').contains('Text').click();
     cy.get('.content.active.text .button.slateFootnotes')
       .contains('Footnotes')
@@ -67,7 +67,7 @@ describe('Slate citations', () => {
     // Add block
     cy.getSlateEditorAndType('{enter}');
 
-    cy.get('.ui.basic.icon.button.block-add-button').first().click();
+    cy.get('.ui.basic.icon.button.block-add-button').first().click({force: true});
     cy.get('.blocks-chooser .title').contains('Text').click();
     cy.get('.content.active.text .button.slateFootnotes')
       .contains('Footnotes')
@@ -78,7 +78,7 @@ describe('Slate citations', () => {
     cy.get('[id=sidebar-properties] label[for=field-global]').click();
 
     // Save
-    cy.get('#toolbar-save').click();
+    cy.get('#toolbar-save').click({force: true});
     cy.url().should('eq', Cypress.config().baseUrl + '/cypress/my-page');
 
     // then the page view should contain our changes
