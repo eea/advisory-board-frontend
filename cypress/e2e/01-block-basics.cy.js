@@ -14,7 +14,7 @@ describe('Blocks Tests', () => {
     cy.getSlate().click({force: true});
 
     // Add block
-    cy.get('.ui.basic.icon.button.block-add-button').first().click();
+    cy.get('.ui.basic.icon.button.block-add-button').first().click({force: true});
     cy.get('.blocks-chooser .title').contains('Media').click();
     cy.get('.content.active.media .button.image').contains('Image').click();
 
