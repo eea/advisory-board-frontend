@@ -51,7 +51,7 @@ describe('Slate citations', () => {
       .type('{selectAll}')
       .dblclick();
 
-    cy.getSlate().dblclick();
+    cy.getSlate().dblclick({force: true});
 
     // Footnote
     cy.setSlateCursor('Colorless').dblclick();
