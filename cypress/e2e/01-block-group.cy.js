@@ -11,10 +11,10 @@ describe('Blocks Tests', () => {
 
     cy.get('.documentFirstHeading').contains('My Add-on Page');
 
-    cy.getSlate().click();
+    cy.getSlate().click({force: true});
 
     // Add block
-    cy.get('.ui.basic.icon.button.block-add-button').first().click();
+    cy.get('.ui.basic.icon.button.block-add-button').first().click({force: true});
     cy.get('.blocks-chooser .title').contains('Common').click();
     cy.get('.content.active.common .button.group')
       .contains('Section (Group)')

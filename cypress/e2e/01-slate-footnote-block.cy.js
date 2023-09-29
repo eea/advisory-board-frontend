@@ -10,7 +10,7 @@ describe('Slate citations', () => {
       .type('{selectAll}')
       .dblclick();
 
-    cy.getSlate().dblclick();
+    cy.getSlate().dblclick({force: true});
 
     // Footnote
     cy.setSlateCursor('Colorless').dblclick();
@@ -29,7 +29,7 @@ describe('Slate citations', () => {
     cy.get('.blocks-chooser .title').contains('Text').click();
     cy.get('.content.active.text .button.slateFootnotes')
       .contains('Footnotes')
-      .click();
+      .click({ force: true });
 
     // Configure block
     cy.get('[id=sidebar-properties] [name=title]').click().type('Footnotes');
