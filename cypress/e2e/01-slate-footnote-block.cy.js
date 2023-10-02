@@ -8,7 +8,7 @@ describe('Slate citations', () => {
     // Complete chained commands
     cy.getSlateEditorAndType('Colorless green ideas sleep furiously.')
       .type('{selectAll}')
-      .dblclick();
+      .dblclick({force: true});
 
     cy.getSlate().dblclick({force: true});
 
@@ -49,7 +49,7 @@ describe('Slate citations', () => {
     // Complete chained commands
     cy.getSlateEditorAndType('Colorless green ideas sleep furiously.')
       .type('{selectAll}')
-      .dblclick();
+      .dblclick({force: true});
 
     cy.getSlate().dblclick({force: true});
 
