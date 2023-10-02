@@ -431,7 +431,7 @@ Cypress.Commands.add('getSlateEditorAndType', (type) => {
 Cypress.Commands.add('setSlateCursor', (subject, query, endQuery) => {
   cy.get('.slate-editor.selected [contenteditable=true]')
     .focus()
-    .click()
+    .click({force: true})
     .setCursor(subject, query, endQuery)
     .wait(1000);
 });
