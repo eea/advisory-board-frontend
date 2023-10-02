@@ -345,7 +345,7 @@ Cypress.Commands.add('waitForResourceToLoad', (fileName, type) => {
 
 // Low level command reused by `setSelection` and low level command `setCursor`
 Cypress.Commands.add('selection', { prevSubject: true }, (subject, fn) => {
-  cy.wrap(subject).trigger('mousedown').then(fn).trigger('mouseup');
+  cy.wrap(subject).trigger('mousedown', {force: true}).then(fn).trigger('mouseup');
 
   cy.document().trigger('selectionchange');
   return cy.wrap(subject);
