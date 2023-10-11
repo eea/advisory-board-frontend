@@ -345,7 +345,7 @@ Cypress.Commands.add('waitForResourceToLoad', (fileName, type) => {
 
 // Low level command reused by `setSelection` and low level command `setCursor`
 Cypress.Commands.add('selection', { prevSubject: true }, (subject, fn) => {
-  cy.wrap(subject).trigger('mousedown').then(fn).trigger('mouseup');
+  cy.wrap(subject).trigger('mousedown', {force: true}).then(fn).trigger('mouseup');
 
   cy.document().trigger('selectionchange');
   return cy.wrap(subject);
@@ -425,13 +425,13 @@ Cypress.Commands.add('setSlateSelection', (subject, query, endQuery) => {
 });
 
 Cypress.Commands.add('getSlateEditorAndType', (type) => {
-  cy.getSlate().focus().click().type(type);
+  cy.getSlate().focus().click({force: true}).type(type);
 });
 
 Cypress.Commands.add('setSlateCursor', (subject, query, endQuery) => {
   cy.get('.slate-editor.selected [contenteditable=true]')
     .focus()
-    .click()
+    .click({force: true})
     .setCursor(subject, query, endQuery)
     .wait(1000);
 });

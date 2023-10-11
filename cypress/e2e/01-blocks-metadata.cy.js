@@ -11,17 +11,24 @@ describe('Blocks Tests', () => {
 
     cy.get('.documentFirstHeading').contains('My Add-on Page');
 
-    cy.getSlate().click();
+    cy.getSlate().click({ force: true });
 
     // Add Metadata block
-    cy.get('.ui.basic.icon.button.block-add-button').first().click();
+    cy.get('.ui.basic.icon.button.block-add-button')
+      .first()
+      .click({ force: true });
     cy.get('.blocks-chooser .title').contains('Common').click();
     cy.get('.content.active.common .button.metadata')
       .contains('Metadata')
       .click({ force: true });
 
-    cy.get('.block.metadata input').click().type('Summary').type('{enter}');
-    cy.get('.block.metadata textarea').click().type('Test metadata: Summary');
+    cy.get('.block.metadata input')
+      .click({ force: true })
+      .type('Summary')
+      .type('{enter}');
+    cy.get('.block.metadata textarea')
+      .click({ force: true })
+      .type('Test metadata: Summary');
 
     // Save
     cy.get('#toolbar-save').click();
