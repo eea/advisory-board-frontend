@@ -141,7 +141,7 @@
   },
   "dependencies": {
     "@eeacms/volto-climate-advisory-board-policy": "0.1.44",
-    "@eeacms/volto-eea-design-system": "1.23.2",
+    "@eeacms/volto-eea-design-system": "1.23.3",
     "@eeacms/volto-eea-kitkat": "22.1.0",
     "@eeacms/volto-eea-website-theme": "1.30.0",
     "@eeacms/volto-newsletter-block": "0.1.14",
