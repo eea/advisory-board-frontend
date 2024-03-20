@@ -11,7 +11,6 @@ describe('Blocks Tests', () => {
     cy.get('.documentFirstHeading').contains('Tabs widget');
 
     cy.getSlate().click({ force: true });
-    // cy.scrollTo('top');
 
     cy.get('.ui.basic.icon.button.block-add-button')
       .first()
@@ -20,7 +19,6 @@ describe('Blocks Tests', () => {
     cy.get('.content.active.common .button.tabs_block')
       .contains('Tabs')
       .click({ force: true });
-    // cy.scrollTo('top');
 
     cy.get('.field-wrapper-title input').last().type('Tab 1');
     cy.get('.tabs-area .accordion.ui').first().click();
@@ -28,7 +26,6 @@ describe('Blocks Tests', () => {
     cy.contains('Icon').click();
     cy.get('#field-icon-2-data-0').type('delete');
     cy.get('#toolbar-save').click();
-    // cy.scrollTo('top');
   });
 
   it('Add Tabs default template', () => {
@@ -38,7 +35,6 @@ describe('Blocks Tests', () => {
     cy.get('.documentFirstHeading').contains('Tabs block default template');
 
     cy.getSlate().click({ force: true });
-    // cy.scrollTo('top');
 
     cy.get('.ui.basic.icon.button.block-add-button')
       .first()
@@ -53,13 +49,11 @@ describe('Blocks Tests', () => {
     cy.get('.react-select__menu').contains('Default').click();
     cy.get('.field-wrapper-verticalAlign #field-verticalAlign').click();
     cy.get('.react-select__menu').contains('Middle').click();
-    // cy.scrollTo('top');
 
     cy.get('.field-wrapper-menuAlign #field-menuAlign').click();
     cy.get('.react-select__menu').contains('Left').click();
     cy.get('.field-wrapper-menuPosition #field-menuPosition').first().click();
     cy.get('.react-select__menu').contains('Top').click();
-    // cy.scrollTo('top');
 
     cy.get('.field-wrapper-menuPosition #field-menuPosition').first().click();
     cy.get('.react-select__menu').contains('Left').click();
@@ -105,7 +99,6 @@ describe('Blocks Tests', () => {
     cy.get('.documentFirstHeading').contains('Tabs block carousel template');
 
     cy.getSlate().click({ force: true });
-    // cy.scrollTo('top');
 
     cy.get('.ui.basic.icon.button.block-add-button')
       .first()
@@ -144,7 +137,6 @@ describe('Blocks Tests', () => {
     // Change page title
     cy.clearSlateTitle();
     cy.getSlateTitle().type('Tabs block horizontal template');
-    // cy.scrollTo('top');
 
     cy.get('.documentFirstHeading').contains('Tabs block horizontal template');
     cy.getSlate().click({ force: true });
@@ -174,10 +166,8 @@ describe('Blocks Tests', () => {
     cy.get('.tabs-block .horizontal-responsive .ui.menu .item')
       .last()
       .click({ force: true });
-    // cy.scrollTo('top');
 
     cy.get('.tabs-block').contains('Tab 3').dblclick().type('Tab 3 edited');
-    // cy.scrollTo('top');
 
     // Save
     cy.get('#toolbar-save').click();
