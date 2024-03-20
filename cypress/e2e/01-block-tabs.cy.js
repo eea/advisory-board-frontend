@@ -10,7 +10,7 @@ describe('Blocks Tests', () => {
 
     cy.get('.documentFirstHeading').contains('Tabs widget');
 
-    cy.getSlate().click();
+    cy.getSlate().click({ force: true });
 
     cy.get('.ui.basic.icon.button.block-add-button').first().click();
     cy.get('.blocks-chooser .title').contains('Common').click();
