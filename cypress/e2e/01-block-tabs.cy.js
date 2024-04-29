@@ -67,8 +67,10 @@ describe('Blocks Tests', () => {
     cy.get('.field-wrapper-menuPosition #field-menuPosition').first().click();
     cy.get('.react-select__menu').contains('Top').click();
 
+    cy.scrollTo('top');
     cy.get('.tabs-block [contenteditable=true]').first().type('Hydrogen');
     cy.get('.tabs-block .ui.left.menu .item').last().click();
+    cy.scrollTo('top');
     cy.get('.tabs-block.edit [contenteditable=true]').first().type('Oxygen');
     cy.get('.tabs-block a.item').first().type(' ');
 
@@ -119,6 +121,7 @@ describe('Blocks Tests', () => {
     cy.get('.tabs-block .ui.menu .item').last().click();
     cy.get('.tabs-block .ui.menu .item').eq(1).click();
     cy.get('.tabs-block').contains('Tab 2').click();
+    cy.scrollTo('top');
     cy.get('.tabs-block.edit [contenteditable=true]').first().type('Oxygen');
 
     // Save
@@ -154,6 +157,7 @@ describe('Blocks Tests', () => {
     cy.get('.field-wrapper-variation #field-variation').click();
     cy.get('.react-select__menu').contains('Horizontal responsive').click();
 
+    cy.scrollTo('top');
     cy.get('.tabs-block [contenteditable=true]')
       .first()
       .type('Horizontal First Item');
@@ -161,6 +165,7 @@ describe('Blocks Tests', () => {
       .last()
       .click({ force: true });
     cy.get('.tabs-block').contains('Tab 2').click();
+    cy.scrollTo('top');
     cy.get('.tabs-block.edit [contenteditable=true]')
       .first()
       .type('Horizontal Second Item');
