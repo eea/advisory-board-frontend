@@ -114,6 +114,7 @@ describe('Blocks Tests', () => {
     cy.get('.react-select__menu').contains('Top').click();
     cy.get('.field-wrapper-theme #field-theme').click();
     cy.get('.react-select__menu').contains('Dark').click();
+    cy.scrollTo('top');
     cy.get('.tabs-block [contenteditable=true]').first().type('Hydrogen');
     cy.get('.tabs-block .ui.menu .item').last().click();
     cy.get('.tabs-block .ui.menu .item').eq(1).click();
