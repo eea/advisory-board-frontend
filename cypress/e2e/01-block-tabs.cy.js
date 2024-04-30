@@ -29,6 +29,8 @@ describe('Blocks Tests', () => {
   });
 
   it('Add Tabs default template', () => {
+    cy.get('.eea.header').invoke('css', 'display', 'none');
+
     cy.clearSlateTitle();
     cy.getSlateTitle().type('Tabs block default template');
 
@@ -66,11 +68,10 @@ describe('Blocks Tests', () => {
 
     cy.get('.field-wrapper-menuPosition #field-menuPosition').first().click();
     cy.get('.react-select__menu').contains('Bottom').click();
-
-    cy.scrollTo(0, 500);
+    cy.scrollTo('top');
     cy.get('.tabs-block [contenteditable=true]').first().type('Hydrogen');
     cy.get('.tabs-block .ui.left.menu .item').last().click();
-    cy.scrollTo(0, 500);
+    cy.scrollTo('top');
     cy.get('.tabs-block.edit [contenteditable=true]').first().type('Oxygen');
     cy.get('.tabs-block a.item').first().type(' ');
 
@@ -95,6 +96,7 @@ describe('Blocks Tests', () => {
 
   it('Add Tabs carousel template', () => {
     // Change page title
+    cy.get('.eea.header').invoke('css', 'display', 'none');
     cy.clearSlateTitle();
     cy.getSlateTitle().type('Tabs block carousel template');
 
@@ -113,15 +115,16 @@ describe('Blocks Tests', () => {
     cy.get('.field-wrapper-variation #field-variation').click();
     cy.get('.react-select__menu').contains('Carousel horizontal').click();
     cy.get('.field-wrapper-verticalAlign #field-verticalAlign').click();
+    cy.scrollTo('top');
     cy.get('.react-select__menu').contains('Bottom').click();
     cy.get('.field-wrapper-theme #field-theme').click();
     cy.get('.react-select__menu').contains('Dark').click();
-    cy.scrollTo(0, 500);
+    cy.scrollTo('top');
     cy.get('.tabs-block [contenteditable=true]').first().type('Hydrogen');
     cy.get('.tabs-block .ui.menu .item').last().click();
     cy.get('.tabs-block .ui.menu .item').eq(1).click();
     cy.get('.tabs-block').contains('Tab 2').click();
-    cy.scrollTo(0, 500);
+    cy.scrollTo('top');
     cy.get('.tabs-block.edit [contenteditable=true]').first().type('Oxygen');
 
     // Save
@@ -139,6 +142,7 @@ describe('Blocks Tests', () => {
 
   it('Add Tabs Block Horizontal', () => {
     // Change page title
+    cy.get('.eea.header').invoke('css', 'display', 'none');
     cy.clearSlateTitle();
     cy.getSlateTitle().type('Tabs block horizontal template');
 
@@ -156,8 +160,7 @@ describe('Blocks Tests', () => {
     cy.get('.field-wrapper-title input').last().type('Tab 1');
     cy.get('.field-wrapper-variation #field-variation').click();
     cy.get('.react-select__menu').contains('Horizontal responsive').click();
-
-    cy.scrollTo(0, 500);
+    cy.scrollTo('top');
     cy.get('.tabs-block [contenteditable=true]')
       .first()
       .type('Horizontal First Item');
@@ -165,7 +168,7 @@ describe('Blocks Tests', () => {
       .last()
       .click({ force: true });
     cy.get('.tabs-block').contains('Tab 2').click();
-    cy.scrollTo(0, 500);
+    cy.scrollTo('top');
     cy.get('.tabs-block.edit [contenteditable=true]')
       .first()
       .type('Horizontal Second Item');
