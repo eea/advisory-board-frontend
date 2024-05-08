@@ -22,7 +22,7 @@ import './commands';
 import '@cypress/code-coverage/support';
 
 // Fail Fast
-import "cypress-fail-fast";
+import 'cypress-fail-fast';
 
 export const slateBeforeEach = (contentType = 'Document') => {
   cy.intercept('GET', `/**/*?expand*`).as('content');
@@ -39,13 +39,6 @@ export const slateBeforeEach = (contentType = 'Document') => {
     path: 'cypress',
   });
   cy.visit('/cypress/my-page');
-  // cy.waitForResourceToLoad('@navigation');
-  // The breadcrumb is auto-expanded.
-  // cy.waitForResourceToLoad('@breadcrumbs');
-  // cy.waitForResourceToLoad('@actions');
-  // cy.waitForResourceToLoad('@types');
-  // cy.waitForResourceToLoad('my-page');
-  cy.wait('@content');
   cy.navigate('/cypress/my-page/edit');
 };
 
