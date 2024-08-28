@@ -86,7 +86,7 @@ pipeline {
             sh "make develop"
             sh "make install"
             sh "make build"
-            sh "yarn bundlewatch --config .bundlewatch.config.json"
+            sh "make bundlewatch"
           }
         }
       }
