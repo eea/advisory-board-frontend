@@ -67,29 +67,31 @@ pipeline {
             }
           }
 
-        )
-      }
-    }
 
-    stage('Bundlewatch') {
-      when {
-        branch 'develop'
-      }
-      steps {
-        node(label: 'docker-big-jobs') {
-          script {
-            checkout scm
-            env.NODEJS_HOME = "${tool 'NodeJS'}"
-            env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
-            env.CI=false
-            sh "yarn"
-            sh "yarn config set -H enableImmutableInstalls false"
-            sh "make develop"
-            sh "make install"
-            sh "make build"
-            sh "make bundlewatch"
+    	  stage('Bundlewatch') {
+      	    when {
+              branch 'develop'
+            }
+      	    steps {
+              node(label: 'docker-big-jobs') {
+                script {
+                  checkout scm
+                  env.NODEJS_HOME = "${tool 'NodeJS'}"
+          	  env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+                  env.CI=false
+       	          sh "yarn"
+                  sh "env"
+                  sh "yarn config"
+                  sh "yarn config set -H enableImmutableInstalls false"
+                  sh "make develop"
+                  sh "make install"
+                  sh "make build"
+                  sh "make bundlewatch"
+                }
+              }
+            }
           }
-        }
+        )
       }
     }
 
