@@ -79,10 +79,10 @@ pipeline {
                   env.NODEJS_HOME = "${tool 'NodeJS'}"
               	  env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
                   env.CI=false
-       	          sh "yarn"
                   sh "env"
                   sh "yarn config"
                   sh "yarn config set -H enableImmutableInstalls false"
+                  sh "yarn"
                   sh "make develop"
                   sh "make install"
                   sh "make build"
