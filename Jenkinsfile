@@ -83,6 +83,7 @@ pipeline {
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
             env.CI=false
             sh "yarn"
+            sh "yarn config set -H enableImmutableInstalls false"
             sh "make develop"
             sh "make install"
             sh "make build"
