@@ -15,6 +15,9 @@ pipeline {
   stages {
 
     stage('Integration tests') {
+     parallel {
+     
+     stage("Cypress") {
       when {
         allOf {
           environment name: 'CHANGE_ID', value: ''
@@ -25,9 +28,6 @@ pipeline {
         }
       }
       steps {
-        parallel(
-
-          "Cypress": {
             node(label: 'docker') {
               script {
                 try {
@@ -69,7 +69,8 @@ pipeline {
 
 
     	  stage('Bundlewatch') {
-      	    when {
+       	    when {
+              not { changelog '.*^Automated release [0-9\\.]+$' }
               branch 'develop'
             }
       	    steps {
@@ -91,7 +92,6 @@ pipeline {
               }
             }
           }
-        )
       }
     }
 
