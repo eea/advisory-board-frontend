@@ -15,6 +15,9 @@ pipeline {
   stages {
 
     stage('Integration tests') {
+     parallel {
+     
+     stage("Cypress") {
       when {
         allOf {
           environment name: 'CHANGE_ID', value: ''
@@ -25,10 +28,7 @@ pipeline {
         }
       }
       steps {
-        parallel(
-
-          "Cypress": {
-            node(label: 'docker') {
+        node(label: 'docker') {
               script {
                 try {
                   sh '''docker pull eeacms/plone-backend; docker run --rm -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="eea.kitkat:testing" eeacms/plone-backend'''
@@ -60,14 +60,35 @@ pipeline {
                     sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
                     sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
                     sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
-
                   }
                 }
               }
             }
           }
+        }
 
-        )
+    	  stage('Bundlewatch') {
+       	    when {
+              not { changelog '.*^Automated release [0-9\\.]+$' }
+              branch 'develop'
+            }
+      	    steps {
+              node(label: 'docker-big-jobs') {
+                script {
+                  checkout scm
+                  env.NODEJS_HOME = "${tool 'NodeJS'}"
+              	  env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+                  env.CI=false
+                  sh "yarn config set -H enableImmutableInstalls false"
+                  sh "yarn"
+                  sh "make develop"
+                  sh "make install"
+                  sh "make build"
+                  sh "make bundlewatch"
+                }
+              }
+            }
+          }
       }
     }
 
