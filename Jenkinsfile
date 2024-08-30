@@ -28,7 +28,7 @@ pipeline {
         }
       }
       steps {
-            node(label: 'docker') {
+        node(label: 'docker') {
               script {
                 try {
                   sh '''docker pull eeacms/plone-backend; docker run --rm -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="eea.kitkat:testing" eeacms/plone-backend'''
@@ -60,13 +60,12 @@ pipeline {
                     sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
                     sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
                     sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
-
                   }
                 }
               }
             }
           }
-
+        }
 
     	  stage('Bundlewatch') {
        	    when {
@@ -78,7 +77,7 @@ pipeline {
                 script {
                   checkout scm
                   env.NODEJS_HOME = "${tool 'NodeJS'}"
-          	  env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+              	  env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
                   env.CI=false
        	          sh "yarn"
                   sh "env"
