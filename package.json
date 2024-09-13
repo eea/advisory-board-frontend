@@ -190,7 +190,7 @@
     "@eeacms/volto-redmine-helpdesk": "0.2.0",
     "@eeacms/volto-searchlib": "0.9.2",
     "@elastic/search-ui": "1.21.2",
-    "@eeacms/volto-tableau": "8.0.7",
+    "@eeacms/volto-tableau": "8.1.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "d3-array": "^2.12.1"
   },
