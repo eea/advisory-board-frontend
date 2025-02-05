@@ -195,7 +195,7 @@
     "d3-array": "^2.12.1"
   },
   "dependencies": {
-    "@eeacms/volto-climate-advisory-board-policy": "0.1.49",
+    "@eeacms/volto-climate-advisory-board-policy": "0.1.50",
     "@eeacms/volto-eea-design-system": "^1.31.1",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-eea-website-theme": "^1.33.2",
