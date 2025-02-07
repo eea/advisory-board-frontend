@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    RANCHER_STACKID = "1st2549"
-    RANCHER_ENVID = "1a332957"
+    RANCHER_STACKID = ""
+    RANCHER_ENVID = ""
     GIT_NAME = "advisory-board-frontend"
     registry = "eeacms/advisory-board-frontend"
     template = "templates/advisory-board-frontend"
@@ -230,6 +230,7 @@ pipeline {
     stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
+        not { environment name: 'RANCHER_STACKID', value: '' }
       }
       steps {
         node(label: 'docker') {
