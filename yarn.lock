@@ -2047,16 +2047,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:0.1.50":
-  version: 0.1.50
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.50"
+"@eeacms/volto-climate-advisory-board-policy@npm:0.1.51":
+  version: 0.1.51
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:0.1.51"
   dependencies:
     "@eeacms/volto-eea-design-system": ^1.31.1
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-hero-block": "*"
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-spotlight": "*"
-  checksum: 0875f025fce92affb8a66064f5c104faff002521b0212511942236fb8dcf3873356ef54e9d9f69e27d414ad3338f6bd515acc2e9f997412483541afc8cb1081a
+  checksum: 856e44798e4848e8e083a1cff6716f614b0cf01147f7c4c679bb6a2dfcc228c8a29037eb6749aec92f9cfbd953560ea7e329860d3f7413a3e5855bed41dc9c5e
   languageName: node
   linkType: hard
 
@@ -2083,9 +2083,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.2.7":
-  version: 7.2.7
-  resolution: "@eeacms/volto-datablocks@npm:7.2.7"
+"@eeacms/volto-datablocks@npm:7.2.8":
+  version: 7.2.8
+  resolution: "@eeacms/volto-datablocks@npm:7.2.8"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2098,7 +2098,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: 7932f41b328039172034360540bee3debcf9b586db504143b2418d22ff6b886197c296a0d2c09b173db64bfd8bae17847396877edf92840898b430dc9df45dce
+  checksum: c54c04c0658b6e3295dc73725382473248fae7ed4f947a922db2f2924699a6e05a3565cf81fe33f792368f47c737b12a53e98bf60b6d1e8328146c72ccc1875a
   languageName: node
   linkType: hard
 
@@ -7338,7 +7338,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-climate-advisory-board-policy": 0.1.50
+    "@eeacms/volto-climate-advisory-board-policy": 0.1.51
     "@eeacms/volto-eea-design-system": 1.36.2
     "@eeacms/volto-eea-kitkat": 26.4.4
     "@eeacms/volto-eea-website-theme": 2.18.1
