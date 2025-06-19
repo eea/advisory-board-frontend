@@ -2276,10 +2276,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-newsletter-block@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@eeacms/volto-newsletter-block@npm:0.1.14"
-  checksum: e3cfe18b8f0c5dc41c5b8da53be3dbb38b41797756e654b31881577856a40743d7b7ffef7f0b93510bbb72e9121a3887088145e5208536141e0492a10e29f807
+"@eeacms/volto-newsletter-block@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@eeacms/volto-newsletter-block@npm:0.5.0"
+  checksum: c7f7d33bf1ac6f76c813b9f065f2bd9d9fef9932b8d0120ada8620a1bcc8eab981a28e21c96feb1f47c06b15439ece05bd044a5df60b5119d313b8fe60c7bda3
   languageName: node
   linkType: hard
 
@@ -7375,7 +7375,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.37.0
     "@eeacms/volto-eea-kitkat": 27.1.1
     "@eeacms/volto-eea-website-theme": 3.7.0
-    "@eeacms/volto-newsletter-block": 0.1.14
+    "@eeacms/volto-newsletter-block": 0.5.0
     "@eeacms/volto-spotlight": 2.1.1
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2

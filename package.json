@@ -174,7 +174,7 @@
     "@eeacms/volto-eea-design-system": "1.37.0",
     "@eeacms/volto-eea-kitkat": "27.1.1",
     "@eeacms/volto-eea-website-theme": "3.7.0",
-    "@eeacms/volto-newsletter-block": "0.1.14",
+    "@eeacms/volto-newsletter-block": "0.5.0",
     "@eeacms/volto-spotlight": "2.1.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.20.3"
