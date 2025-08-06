@@ -177,7 +177,7 @@
     "@eeacms/volto-newsletter-block": "0.5.0",
     "@eeacms/volto-spotlight": "2.1.1",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@plone/volto": "17.20.3"
+    "@plone/volto": "17.22.0"
   },
   "devDependencies": {
     "@plone/scripts": "^3.3.2",
