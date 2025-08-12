@@ -2118,9 +2118,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:1.0.1"
+"@eeacms/volto-climate-advisory-board-policy@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:1.0.0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2128,7 +2128,7 @@ __metadata:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-spotlight": "*"
-  checksum: bd5ed818032402aaa1623da3099e7ba306869d18a98c0123309439998ce0ee36104d8eb9f29b0b1df30c595a2f5391da7abc072d168b420c5ca6c06a8e2b1605
+  checksum: 9981d91d1149ab3ec6f31e15f5bec86ee9f6f8de8ec4b88978a831610dd93c8b3d3e373328ee0264372ef0393752f370ec9ba92000eb7789390ce33f507c1a54
   languageName: node
   linkType: hard
 
@@ -2431,21 +2431,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-spotlight@*, @eeacms/volto-spotlight@2.1.3, @eeacms/volto-spotlight@workspace:src/addons/volto-spotlight":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-spotlight@workspace:src/addons/volto-spotlight"
+"@eeacms/volto-spotlight@npm:*":
+  version: 2.1.3
+  resolution: "@eeacms/volto-spotlight@npm:2.1.3"
   dependencies:
-    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-eea-design-system": "*"
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress: 13.1.0
-    cypress-fail-fast: ^5.0.1
-    husky: ^8.0.3
-    lint-staged: ^14.0.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
+  checksum: 5df360222ead7fdf491cb1e493ab0bdc584527ba6f3abd97bacbf9c04117e1ca881c8b41310307ccb28606c1a5696b391d0262f62c4bdc9cbf852bb537e78f22
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-spotlight@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@eeacms/volto-spotlight@npm:2.1.1"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+  checksum: e3bad8558554cd9b1ef4c976f850b46b3ee46cbcdbd4edc99b883af0ea255e40a1b43b5c5438e35475a0a132d064051546afe082cf76852c111cba2626de2154
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-statistic-block@npm:6.0.1":
   version: 6.0.1
@@ -7481,12 +7483,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-climate-advisory-board-policy": 1.0.1
+    "@eeacms/volto-climate-advisory-board-policy": 1.0.0
     "@eeacms/volto-eea-design-system": 1.38.3
     "@eeacms/volto-eea-kitkat": 28.0.2
     "@eeacms/volto-eea-website-theme": 3.8.0
     "@eeacms/volto-newsletter-block": 0.5.0
-    "@eeacms/volto-spotlight": 2.1.3
+    "@eeacms/volto-spotlight": 2.1.1
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.22.0
