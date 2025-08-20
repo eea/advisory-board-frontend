@@ -2131,9 +2131,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.36.6":
-  version: 1.36.6
-  resolution: "@eeacms/volto-eea-design-system@npm:1.36.6"
+"@eeacms/volto-eea-design-system@npm:1.39.0":
+  version: 1.39.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.39.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2142,7 +2142,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 51dec698221a291541b6933d1491bd59deba98a4c970407b0244cc3b7644906e8e33c5e1ade434250dba9711e8a653e7ba77c9e3781a6f5082c43c14fa8262a6
+  checksum: a5925a60d89eb883dd9f7f1b4bffc653c73ec341933f22c9c7f5ab6b8f12be03ad3b324ceeb4c3dbe903c5cae508fee2ae3c2b2e8383a429a999517e1d643257
   languageName: node
   linkType: hard
 
@@ -7409,7 +7409,7 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@eeacms/volto-climate-advisory-board-policy": 1.0.0
-    "@eeacms/volto-eea-design-system": 1.38.3
+    "@eeacms/volto-eea-design-system": 1.39.0
     "@eeacms/volto-eea-kitkat": 28.0.3
     "@eeacms/volto-eea-website-theme": 3.9.0
     "@eeacms/volto-newsletter-block": 0.5.0
