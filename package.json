@@ -2,7 +2,7 @@
   "name": "advisory-board-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -151,7 +151,7 @@
     "@eeacms/volto-eea-versions": "1.0.0",
     "@eeacms/volto-eea-website-theme": "3.8.0",
     "@eeacms/volto-globalsearch": "2.1.2",
-    "@eeacms/volto-plotlycharts": "13.0.2",
+    "@eeacms/volto-plotlycharts": "13.0.4",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.1.8",
     "@eeacms/volto-tableau": "8.1.5",
