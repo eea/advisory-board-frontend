@@ -151,7 +151,7 @@
     "@eeacms/volto-eea-versions": "1.0.0",
     "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#289423-localstorage",
     "@eeacms/volto-globalsearch": "2.1.2",
-    "@eeacms/volto-plotlycharts": "13.0.11",
+    "@eeacms/volto-plotlycharts": "13.0.12",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.1.8",
     "@eeacms/volto-tableau": "8.1.5",
