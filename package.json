@@ -144,7 +144,7 @@
     "@eeacms/volto-embed-content": "0.2.2",
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-datablocks": "7.3.3",
-    "@eeacms/volto-datahub": "2.0.1",
+    "@eeacms/volto-datahub": "2.0.2",
     "@eeacms/volto-eea-design-system": "1.39.1",
     "@eeacms/volto-eea-kitkat": "28.0.9",
     "@eeacms/volto-eea-map": "5.0.8",
