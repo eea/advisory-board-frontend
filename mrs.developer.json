@@ -12,7 +12,7 @@
     "https": "https://github.com/eea/volto-newsletter-block.git",
     "package": "@eeacms/volto-newsletter-block",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-europa-analytics": {
@@ -251,8 +251,8 @@
     "url": "git@github.com:eea/volto-eea-website-theme.git",
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
-    "branch": "289423-localstorage",
-    "develop": true,
+    "branch": "develop",
+    "develop": false,
     "path": "src"
   },
   "volto-eea-design-system": {
