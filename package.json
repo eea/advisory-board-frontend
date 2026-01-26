@@ -150,7 +150,7 @@
     "@eeacms/volto-eea-map": "5.0.8",
     "@eeacms/volto-eea-versions": "1.0.0",
     "@eeacms/volto-eea-website-theme": "3.18.1",
-    "@eeacms/volto-globalsearch": "2.1.2",
+    "@eeacms/volto-globalsearch": "3.0.0",
     "@eeacms/volto-plotlycharts": "13.3.7",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "3.0.1",
