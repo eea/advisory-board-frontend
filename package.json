@@ -145,7 +145,7 @@
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-datablocks": "7.3.4",
     "@eeacms/volto-datahub": "2.0.5",
-    "@eeacms/volto-eea-design-system": "1.40.2",
+    "@eeacms/volto-eea-design-system": "1.40.3",
     "@eeacms/volto-eea-kitkat": "30.1.1",
     "@eeacms/volto-eea-map": "5.0.8",
     "@eeacms/volto-eea-versions": "1.0.0",
@@ -171,7 +171,7 @@
   },
   "dependencies": {
     "@eeacms/volto-climate-advisory-board-policy": "1.0.3",
-    "@eeacms/volto-eea-design-system": "1.40.2",
+    "@eeacms/volto-eea-design-system": "1.40.3",
     "@eeacms/volto-eea-kitkat": "30.1.1",
     "@eeacms/volto-eea-website-theme": "3.18.1",
     "@eeacms/volto-newsletter-block": "0.5.0",
