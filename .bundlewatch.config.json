@@ -1,10 +1,6 @@
 {
   "files": [
     {
-      "path": "build/public/static/js/*.js",
-      "maxSize": "50kB"
-    },
-    {
       "path": "build/public/static/js/sanitize-*.js",
       "maxSize": "85kB"
     },
