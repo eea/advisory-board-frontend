@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
     "module": "commonjs",
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,9 +19,25 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@plone/volto/*": ["../node_modules/@plone/volto/src/*", "../node_modules/@plone/volto/types/*"],
-      "@root/*": ["."],
-      "@eeacms/volto-climate-advisory-board-policy": ["addons/volto-climate-advisory-board-policy/src"]
+      "@plone/volto/*": [
+        "../node_modules/@plone/volto/src/*",
+        "../node_modules/@plone/volto/types/*"
+      ],
+      "@root/*": [
+        "."
+      ],
+      "@eeacms/volto-climate-advisory-board-policy": [
+        "addons/volto-climate-advisory-board-policy/src"
+      ],
+      "@eeacms/volto-eea-kitkat": [
+        "addons/volto-eea-kitkat/src"
+      ],
+      "@eeacms/volto-eea-website-theme": [
+        "addons/volto-eea-website-theme/src"
+      ],
+      "@eeacms/volto-eea-design-system": [
+        "addons/volto-eea-design-system/src"
+      ]
     },
     "baseUrl": "src"
   }
