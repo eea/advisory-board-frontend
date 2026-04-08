@@ -2086,9 +2086,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@eeacms/volto-datablocks@npm:8.0.0"
+"@eeacms/volto-datablocks@npm:8.0.1":
+  version: 8.0.1
+  resolution: "@eeacms/volto-datablocks@npm:8.0.1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2100,7 +2100,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: bda4ebe7cab3f10da7fa150fa7f79b58b862b67e34a9f7ca943c80e613e0618d4b73b27484b2a5094805bbc290e4bb10684095f74cdd638f0b7e66cab3607ee1
+  checksum: 8787d06f0a90d927639ef8065ff00fbd0c3bc4c6ad8e8492defd0751ad7c52b5cd44c9f92c0912c59302adc79d237ad3dcabaf250653ed9142d7be961d604553
   languageName: node
   linkType: hard
 
@@ -2174,9 +2174,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.0.0"
+"@eeacms/volto-eea-website-theme@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.0.1"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2184,7 +2184,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#develop"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: b2625b1ece6103069aa2ca6749424541e74430ec9ea648b68e61821e8185f231c6a042bc5a307bbeadb7f48096fe2070094e7aad22dbd90edb1526fd2e677ca8
+  checksum: f523355188e6f1f274cfc5e4d9095a7dd22c7184baae5c95322de7d652e787b14c537c8fdaadd1f1fe6a47561d6d10cd83c497073a517afa60ef119800a99e9a
   languageName: node
   linkType: hard
 
@@ -7390,7 +7390,7 @@ __metadata:
     "@eeacms/volto-climate-advisory-board-policy": 1.0.4
     "@eeacms/volto-eea-design-system": 1.50.1
     "@eeacms/volto-eea-kitkat": 32.0.2
-    "@eeacms/volto-eea-website-theme": 4.0.0
+    "@eeacms/volto-eea-website-theme": 4.0.1
     "@eeacms/volto-newsletter-block": 0.5.0
     "@eeacms/volto-spotlight": 2.1.1
     "@plone-collective/volto-authomatic": 2.0.1
