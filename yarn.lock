@@ -2086,9 +2086,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@eeacms/volto-datablocks@npm:8.0.1"
+"@eeacms/volto-datablocks@npm:8.0.2":
+  version: 8.0.2
+  resolution: "@eeacms/volto-datablocks@npm:8.0.2"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2100,20 +2100,20 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: 8787d06f0a90d927639ef8065ff00fbd0c3bc4c6ad8e8492defd0751ad7c52b5cd44c9f92c0912c59302adc79d237ad3dcabaf250653ed9142d7be961d604553
+  checksum: d77af375ba93bd2da44fbe7903320d439959b90de3d8ea2302bbb3f15606b3ac772829cfc416eb570d9f28e75107ba232578f9c55b6de2d17715a3f6eb4107e2
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-description-block@npm:3.0.0"
-  checksum: 4f82e5a83f37f33e23c84554643b9445d55a719b062ce30d72f632f2c35aa31456860ed05b548f4015a470d1f0de54c0080a05517a5be2ee4dd2aed169f1139c
+"@eeacms/volto-description-block@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-description-block@npm:3.0.1"
+  checksum: 4e6528f2105b2ff48598f932ab77dd4ae0bd06da1d098dce5e0b86774eb6726a5aeb6d44d673519de97a12ba2909d8ccfb30c470e0d76c832670d620e1fd3806
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.50.1":
-  version: 1.50.1
-  resolution: "@eeacms/volto-eea-design-system@npm:1.50.1"
+"@eeacms/volto-eea-design-system@npm:1.50.2":
+  version: 1.50.2
+  resolution: "@eeacms/volto-eea-design-system@npm:1.50.2"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2122,7 +2122,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 979ba67bd6e63953417aa44d8b3dd2e5740e7111d12f9cedd6655d054341019b5eebc9c8d917199d9380f3c20cd2094cbc5c11c1950d99eb8a1e170345268c0b
+  checksum: 95379df50e17f74c7c702271b5c274d564d7b7f3b29195631486f67c5c4b2bd754985b43a92b8455691a389ed86bf886cacc46e8b6922c187c7c66984a45a20c
   languageName: node
   linkType: hard
 
@@ -7388,7 +7388,7 @@ __metadata:
   resolution: "advisory-board-frontend@workspace:."
   dependencies:
     "@eeacms/volto-climate-advisory-board-policy": 1.0.4
-    "@eeacms/volto-eea-design-system": 1.50.1
+    "@eeacms/volto-eea-design-system": 1.50.2
     "@eeacms/volto-eea-kitkat": 32.0.2
     "@eeacms/volto-eea-website-theme": 4.0.3
     "@eeacms/volto-newsletter-block": 0.5.0
