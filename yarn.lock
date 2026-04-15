@@ -2114,21 +2114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-climate-advisory-board-policy@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@eeacms/volto-climate-advisory-board-policy@npm:1.0.4"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": "*"
-    "@eeacms/volto-hero-block": "*"
-    "@eeacms/volto-listing-block": "*"
-    "@eeacms/volto-object-widget": "*"
-    "@eeacms/volto-spotlight": "*"
-  checksum: 577de3835f80b8e43fb7321889f97d05087bde320423a7ff21657bc689f349674b80fd42690923f9dce286d2a2d57c39e23f5cfa051c59295b355db0fc953925
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy":
+"@eeacms/volto-climate-advisory-board-policy@1.0.5, @eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-climate-advisory-board-policy@workspace:src/addons/volto-climate-advisory-board-policy"
   dependencies:
@@ -7042,7 +7028,7 @@ __metadata:
     "@babel/plugin-proposal-json-strings": 7.18.6
     "@babel/plugin-proposal-throw-expressions": 7.18.6
     "@babel/plugin-syntax-export-namespace-from": 7.8.3
-    "@eeacms/volto-climate-advisory-board-policy": 1.0.4
+    "@eeacms/volto-climate-advisory-board-policy": 1.0.5
     "@eeacms/volto-eea-design-system": 1.50.2
     "@eeacms/volto-eea-kitkat": 33.0.0
     "@eeacms/volto-eea-website-theme": 4.0.4
