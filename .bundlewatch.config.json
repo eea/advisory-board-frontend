@@ -9,10 +9,6 @@
       "maxSize": "103kB"
     },
     {
-      "path": "build/public/static/js/draft-js*.js",
-      "maxSize": "120kB"
-    },
-    {
       "path": "build/public/static/js/react-sortable*.js",
       "maxSize": "70kB"
     },
