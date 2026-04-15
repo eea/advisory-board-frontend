@@ -2206,10 +2206,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-description-block@npm:3.0.0"
-  checksum: 4f82e5a83f37f33e23c84554643b9445d55a719b062ce30d72f632f2c35aa31456860ed05b548f4015a470d1f0de54c0080a05517a5be2ee4dd2aed169f1139c
+"@eeacms/volto-description-block@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-description-block@npm:3.0.1"
+  checksum: 4e6528f2105b2ff48598f932ab77dd4ae0bd06da1d098dce5e0b86774eb6726a5aeb6d44d673519de97a12ba2909d8ccfb30c470e0d76c832670d620e1fd3806
   languageName: node
   linkType: hard
 
@@ -7043,9 +7043,9 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.18.6
     "@babel/plugin-syntax-export-namespace-from": 7.8.3
     "@eeacms/volto-climate-advisory-board-policy": 1.0.4
-    "@eeacms/volto-eea-design-system": 1.50.0
-    "@eeacms/volto-eea-kitkat": 32.0.2
-    "@eeacms/volto-eea-website-theme": 3.19.1
+    "@eeacms/volto-eea-design-system": 1.50.2
+    "@eeacms/volto-eea-kitkat": 33.0.0
+    "@eeacms/volto-eea-website-theme": 4.0.4
     "@eeacms/volto-newsletter-block": 0.5.0
     "@eeacms/volto-spotlight": 2.1.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
@@ -7073,6 +7073,7 @@ __metadata:
     compression-webpack-plugin: 10.0.0
     css-loader: 5.2.7
     eslint-plugin-prettier: ^5.1.3
+    html-webpack-plugin: 5.5.0
     jest-junit: 16.0.0
     less: 3.11.1
     less-loader: 11.1.0
@@ -14733,6 +14734,21 @@ __metadata:
   version: 1.0.5
   resolution: "html-void-elements@npm:1.0.5"
   checksum: 1a56f4f6cfbeb994c21701ff72b4b7f556fe784a70e5e554d1566ff775af83b91ea93f10664f039a67802d9f7b40d4a7f1ed20312bab47bd88d89bd792ea84ca
+  languageName: node
+  linkType: hard
+
+"html-webpack-plugin@npm:5.5.0":
+  version: 5.5.0
+  resolution: "html-webpack-plugin@npm:5.5.0"
+  dependencies:
+    "@types/html-minifier-terser": ^6.0.0
+    html-minifier-terser: ^6.0.2
+    lodash: ^4.17.21
+    pretty-error: ^4.0.0
+    tapable: ^2.0.0
+  peerDependencies:
+    webpack: ^5.20.0
+  checksum: f3d84d0df71fe2f5bac533cc74dce41ab058558cdcc6ff767d166a2abf1cf6fb8491d54d60ddbb34e95c00394e379ba52e0468e0284d1d0cc6a42987056e8219
   languageName: node
   linkType: hard
 
