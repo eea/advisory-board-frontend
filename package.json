@@ -149,7 +149,7 @@
     "@eeacms/volto-datahub": "3.0.1",
     "@eeacms/volto-design-tokens": "2.0.1",
     "@eeacms/volto-eea-design-system": "1.50.2",
-    "@eeacms/volto-eea-kitkat": "33.0.0",
+    "@eeacms/volto-eea-kitkat": "33.0.1",
     "@eeacms/volto-eea-map": "6.0.1",
     "@eeacms/volto-eea-versions": "2.0.1",
     "@eeacms/volto-eea-website-theme": "4.0.5",
@@ -183,7 +183,7 @@
   "dependencies": {
     "@eeacms/volto-climate-advisory-board-policy": "1.0.5",
     "@eeacms/volto-eea-design-system": "1.50.2",
-    "@eeacms/volto-eea-kitkat": "33.0.0",
+    "@eeacms/volto-eea-kitkat": "33.0.1",
     "@eeacms/volto-eea-website-theme": "4.0.5",
     "@eeacms/volto-newsletter-block": "0.5.0",
     "@eeacms/volto-spotlight": "2.1.1",
