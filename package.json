@@ -144,7 +144,7 @@
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-embed": "11.0.1",
     "@eeacms/volto-embed-content": "1.0.1",
-    "@eeacms/volto-embed-static-content": "1.0.2",
+    "@eeacms/volto-embed-static-content": "1.0.3",
     "@eeacms/volto-datablocks": "8.0.2",
     "@eeacms/volto-datahub": "3.0.1",
     "@eeacms/volto-design-tokens": "2.0.1",
