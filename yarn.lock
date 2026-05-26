@@ -2021,9 +2021,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.60.3":
-  version: 1.60.3
-  resolution: "@eeacms/volto-eea-design-system@npm:1.60.3"
+"@eeacms/volto-eea-design-system@npm:1.60.5":
+  version: 1.60.5
+  resolution: "@eeacms/volto-eea-design-system@npm:1.60.5"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2032,7 +2032,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 6676b0620141f9047404d444db8360045bcbe0bb5cf8288ba53a2044a9661a5cf235eab90295c1308260c0d01745d123db3ff64ed5fceb4df699e894443b1478
+  checksum: 7b9a968190942522f4f1b9cb4a790c060ef4562156b7da6e07ea3f1a43592612204ef83a767ab5f8cb5b07857dae43303e436ee9be80aadb213795a84335fec7
   languageName: node
   linkType: hard
 
@@ -2098,13 +2098,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:11.0.1":
-  version: 11.0.1
-  resolution: "@eeacms/volto-embed@npm:11.0.1"
+"@eeacms/volto-embed@npm:11.0.3":
+  version: 11.0.3
+  resolution: "@eeacms/volto-embed@npm:11.0.3"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: b08e84f12566d2a044c695ba0d7934f78ac38bc23f22776b6251e8edc57fc52f1e651d0ffd82c7b71c52e9fbd3d500aab0b65576b52bf622ea77587e2557d6da
+  checksum: 3c286f0f2ff34b8ae6b2bbb52ca6244237b50c66ed9adcc7f97c06307f2d748fdc2f973a55fe591077869038230c89e83247688b5b93e0a3bca761b9367b292f
   languageName: node
   linkType: hard
 
@@ -6714,7 +6714,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.18.6
     "@babel/plugin-syntax-export-namespace-from": 7.8.3
     "@eeacms/volto-climate-advisory-board-policy": 1.0.5
-    "@eeacms/volto-eea-design-system": 1.60.3
+    "@eeacms/volto-eea-design-system": 1.60.5
     "@eeacms/volto-eea-kitkat": 33.0.4
     "@eeacms/volto-eea-website-theme": 4.3.2
     "@eeacms/volto-newsletter-block": 0.5.0
