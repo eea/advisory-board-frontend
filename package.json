@@ -188,7 +188,7 @@
     "@eeacms/volto-newsletter-block": "0.5.0",
     "@eeacms/volto-spotlight": "2.1.1",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@plone/volto": "18.33.0"
+    "@plone/volto": "18.35.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-export-namespace-from": "7.18.9",
