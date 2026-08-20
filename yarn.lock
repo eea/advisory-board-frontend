@@ -2003,9 +2003,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:8.0.3":
-  version: 8.0.3
-  resolution: "@eeacms/volto-datablocks@npm:8.0.3"
+"@eeacms/volto-datablocks@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@eeacms/volto-datablocks@npm:9.0.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2016,8 +2016,8 @@ __metadata:
     humanize-plus: ^1.8.2
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
-    sanitize-html: 2.12.1
-  checksum: 7eefe69a12523492d44b2b0cdafcbabe63503b8625e154f635ce5df190c512c44d9c33d7260f057ed2f3a92bc3cc47d24dcb7454a79feb02a30eebfbd3969e00
+    sanitize-html: 2.17.5
+  checksum: 8ad453b5326e4c4b3a3bd1f96caa57c011257afab424020cee72692fea81d0b8f8e2af0db5aa0bfe9610fc5d48ebe50ebc0548afe15ade49ab45e3a00743df87
   languageName: node
   linkType: hard
 
@@ -2091,9 +2091,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.4.0":
-  version: 4.4.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.4.0"
+"@eeacms/volto-eea-website-theme@npm:4.4.1":
+  version: 4.4.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.4.1"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2101,17 +2101,17 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 36b2d0bade1ff1a9f2f61c037967ff5ea9b4306348cd370fe6b83b3fd839f3ed369f0fd2718a06ccb2c092ba1ce4a2c082e98506f913fe16bd0cc25bc1ec8d4e
+  checksum: 23a9689a07ba5611dbf8adfce34a60f92f6e2a87a06777b86837b101bb1c0957784fdd70924ae3f73dfbc47aead20ad9b670722e52a00e5106f5b272799ac383
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:11.0.5":
-  version: 11.0.5
-  resolution: "@eeacms/volto-embed@npm:11.0.5"
+"@eeacms/volto-embed@npm:11.0.6":
+  version: 11.0.6
+  resolution: "@eeacms/volto-embed@npm:11.0.6"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: 66f91c1ca128d4924d62297e4b013928a978bd517beebc97ddd6cee87143464a56aef1fa126bfc0a617d6dd8627868fa66fd2afcbd0553395e2ca4971870ccb5
+  checksum: e5614d61428bcf0deb2b6df2f4e3a38840b032059d5ecded4558928f4c37c50289f8e424d7bbccd6c750ef6ba1107c3f32afafee923a459d226078c2abb25b92
   languageName: node
   linkType: hard
 
@@ -6760,7 +6760,7 @@ __metadata:
     "@eeacms/volto-climate-advisory-board-policy": 1.0.5
     "@eeacms/volto-eea-design-system": 1.60.8
     "@eeacms/volto-eea-kitkat": 33.1.1
-    "@eeacms/volto-eea-website-theme": 4.4.0
+    "@eeacms/volto-eea-website-theme": 4.4.1
     "@eeacms/volto-newsletter-block": 0.5.0
     "@eeacms/volto-spotlight": 2.1.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
@@ -10530,6 +10530,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dayjs@npm:^1.11.7":
+  version: 1.11.23
+  resolution: "dayjs@npm:1.11.23"
+  checksum: 2149ddb54548066e892a35099c7d90cba3eb467fe717b5df16f04ff4225e64bd653e14e7b420dd02bcf10566c1879508705798ca604f91c2424cc10de9135e84
+  languageName: node
+  linkType: hard
+
 "debug@npm:2.6.9, debug@npm:^2.2.0, debug@npm:^2.3.3, debug@npm:^2.6.0":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
@@ -11162,7 +11169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.0.1":
+"domutils@npm:^3.2.2":
   version: 3.2.2
   resolution: "domutils@npm:3.2.2"
   dependencies:
@@ -11395,10 +11402,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^4.2.0, entities@npm:^4.4.0":
+"entities@npm:^4.2.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 853f8ebd5b425d350bffa97dd6958143179a5938352ccae092c62d1267c4e392a039be1bae7d51b6e4ffad25f51f9617531fedf5237f15df302ccfb452cbf2d7
+  languageName: node
+  linkType: hard
+
+"entities@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "entities@npm:7.0.1"
+  checksum: 5ee49e52e64eafc63251585f74eae50f259ea2169dbbf5380843dcd97c79bfe430a58e7f34012ab67a8e258f6ef9f92d721d149ffc88c89039e155f1bcf48a53
   languageName: node
   linkType: hard
 
@@ -13845,6 +13859,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"htmlparser2@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "htmlparser2@npm:10.1.0"
+  dependencies:
+    domelementtype: ^2.3.0
+    domhandler: ^5.0.3
+    domutils: ^3.2.2
+    entities: ^7.0.1
+  checksum: 49b8fa62dcd833b89535523c437d04069400e618b22b8dc8cd48bf6ef820752bb026c4f1fc7309d08b6016bfcd3cc0eca4ed48d5eeff4a3e010be19027d51c70
+  languageName: node
+  linkType: hard
+
 "htmlparser2@npm:^6.1.0":
   version: 6.1.0
   resolution: "htmlparser2@npm:6.1.0"
@@ -13854,18 +13880,6 @@ __metadata:
     domutils: ^2.5.2
     entities: ^2.0.0
   checksum: 81a7b3d9c3bb9acb568a02fc9b1b81ffbfa55eae7f1c41ae0bf840006d1dbf54cb3aa245b2553e2c94db674840a9f0fdad7027c9a9d01a062065314039058c4e
-  languageName: node
-  linkType: hard
-
-"htmlparser2@npm:^8.0.0":
-  version: 8.0.2
-  resolution: "htmlparser2@npm:8.0.2"
-  dependencies:
-    domelementtype: ^2.3.0
-    domhandler: ^5.0.3
-    domutils: ^3.0.1
-    entities: ^4.4.0
-  checksum: 29167a0f9282f181da8a6d0311b76820c8a59bc9e3c87009e21968264c2987d2723d6fde5a964d4b7b6cba663fca96ffb373c06d8223a85f52a6089ced942700
   languageName: node
   linkType: hard
 
@@ -16177,6 +16191,15 @@ __metadata:
   version: 0.28.0
   resolution: "known-css-properties@npm:0.28.0"
   checksum: c9e0d6948e31386e872d348eb955e9db80edd58f9d7f7fc9b072180bfb26708a629d5942d4478f66fc766fb913c4552a220950730cef85f8c3bc9830e33b00c8
+  languageName: node
+  linkType: hard
+
+"launder@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "launder@npm:1.7.1"
+  dependencies:
+    dayjs: ^1.11.7
+  checksum: d9b9f33b12a69b95523e48f0541f0ab2179d8af8bfa386dd9fa91dd95db46b21f430d0000a82e94505473fabc05fd55802a90ea006c50e3b0ef9773a1b0d6dc6
   languageName: node
   linkType: hard
 
@@ -21920,17 +21943,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanitize-html@npm:2.12.1":
-  version: 2.12.1
-  resolution: "sanitize-html@npm:2.12.1"
+"sanitize-html@npm:2.17.5":
+  version: 2.17.5
+  resolution: "sanitize-html@npm:2.17.5"
   dependencies:
     deepmerge: ^4.2.2
     escape-string-regexp: ^4.0.0
-    htmlparser2: ^8.0.0
+    htmlparser2: ^10.1.0
     is-plain-object: ^5.0.0
+    launder: ^1.7.1
     parse-srcset: ^1.0.2
     postcss: ^8.3.11
-  checksum: fb96ea7170d51b5af2607f5cfd84464c78fc6f47e339407f55783e781c6a0288a8d40bbf97ea6a8758924ba9b2d33dcc4846bb94caacacd90d7f2de10ed8541a
+  checksum: 4663045e99f8da1f48450550317441b4a1eed65b09987eb6b17faa35704ffa7ef7653d5c529d574725cd499ca9aa7094ab8370941292ee3ccfeb9e6d2be16c21
   languageName: node
   linkType: hard
 
