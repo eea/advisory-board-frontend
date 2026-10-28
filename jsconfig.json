@@ -80,9 +80,6 @@
       "@eeacms/volto-block-divider": [
         "addons/volto-block-divider/src"
       ],
-      "@eeacms/volto-listing-block": [
-        "addons/volto-listing-block/src"
-      ],
       "@eeacms/volto-metadata-block": [
         "addons/volto-metadata-block/src"
       ],
