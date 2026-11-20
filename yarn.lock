@@ -2013,9 +2013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:9.0.6":
-  version: 9.0.6
-  resolution: "@eeacms/volto-datablocks@npm:9.0.6"
+"@eeacms/volto-datablocks@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-datablocks@npm:10.0.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2027,29 +2027,43 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.18.1
-  checksum: eecdaf88286c59a5a55e75c1057a1a3337fa0f48b03a2703df607ca0348d19b9ea8c382b49b54429beb438fbb161045b582c6937b4347533a537f859b7a52c3f
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 2c3d50553babde6f56c210ae6d62361b5feb2010742dc50fbe70b50a68487d42ef589af7f18e03d015992a4f2265b6c4f3d94162cd2f9b6e3333fb7a198076a2
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-description-block@npm:3.0.1"
-  checksum: 4e6528f2105b2ff48598f932ab77dd4ae0bd06da1d098dce5e0b86774eb6726a5aeb6d44d673519de97a12ba2909d8ccfb30c470e0d76c832670d620e1fd3806
+"@eeacms/volto-description-block@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@eeacms/volto-description-block@npm:4.0.0"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 568209f8a02b66c53ca32c1ae7810f54d4b2aa45b724764420fc72001e851e4cdcdba868b917d961ddc7d60348c45cadf21b66e619734681ef0facb1194f7dfe
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.61.10":
-  version: 1.61.10
-  resolution: "@eeacms/volto-eea-design-system@npm:1.61.10"
+"@eeacms/volto-eea-design-system@npm:1.70.0":
+  version: 1.70.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.70.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
     "@fontsource/roboto": 4.5.8
+    "@semantic-ui-react/event-stack": 3.1.3
     react-lazy-load-image-component: 1.5.6
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 082f433c52a3846d664492eadda7f963a82fe0065d084dbe9971e74e3fde060d89e4ced6b5a8e970786c5f78f85f9204e867d99d4683d8145c5fc5475214e87b
+  peerDependencies:
+    "@plone/volto": ">=18.0.0 <20.0.0"
+    classnames: ">=2.0.0"
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+    react-intl: ">=3.0.0"
+    semantic-ui-react: ">=2.0.0"
+  checksum: edc448893c4d4c860ce10795e7a0ab2e4f915850f05cc2a7b0cc4fb5e1cb18b841a1cbd70b50c185a9d442745829ec0d713f1288199caf7b382b7e468f247bc9
   languageName: node
   linkType: hard
 
@@ -2115,13 +2129,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:11.0.6":
-  version: 11.0.6
-  resolution: "@eeacms/volto-embed@npm:11.0.6"
+"@eeacms/volto-embed@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@eeacms/volto-embed@npm:12.0.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: e5614d61428bcf0deb2b6df2f4e3a38840b032059d5ecded4558928f4c37c50289f8e424d7bbccd6c750ef6ba1107c3f32afafee923a459d226078c2abb25b92
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: ecbe8bb07495d9ac4e0f7b58c3ee9a56d6cb1f48c224c48a88aa59e982ac9b730e32c66214d6592ad725f3a133c46243613a7ad5bebd7ffd427d6482fef19250
   languageName: node
   linkType: hard
 
@@ -2151,16 +2168,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:11.0.5":
-  version: 11.0.5
-  resolution: "@eeacms/volto-listing-block@npm:11.0.5"
+"@eeacms/volto-listing-block@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@eeacms/volto-listing-block@npm:12.0.0"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: f51d59575edecde9562444e26a359c1fcd86bb6858d0e88a2fb1e7017b225392219634afd3e63e9389595f53c90dd1fbcf8e706083cbb099119ac1fa63229246
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 01114efb0756209de8f4e423b4a61b1cc7c4360b584f6e026ba91580d20ad418279aa5b46f73d9ee505887fe127ed8146cb3ee8b20ab3cc508f3eaf64644aef7
   languageName: node
   linkType: hard
 
@@ -3841,7 +3861,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-ui-react/event-stack@npm:^3.1.3":
+"@semantic-ui-react/event-stack@npm:3.1.3, @semantic-ui-react/event-stack@npm:^3.1.3":
   version: 3.1.3
   resolution: "@semantic-ui-react/event-stack@npm:3.1.3"
   dependencies:
@@ -6760,7 +6780,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.18.6
     "@babel/plugin-syntax-export-namespace-from": 7.8.3
     "@eeacms/volto-climate-advisory-board-policy": 1.0.5
-    "@eeacms/volto-eea-design-system": 1.61.10
+    "@eeacms/volto-eea-design-system": 1.70.0
     "@eeacms/volto-eea-kitkat": 34.0.4
     "@eeacms/volto-eea-website-theme": 5.0.7
     "@eeacms/volto-newsletter-block": 0.5.0
