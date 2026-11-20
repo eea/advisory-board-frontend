@@ -161,7 +161,7 @@
     "@eeacms/volto-tableau": "10.0.0",
     "@eeacms/volto-workflow-progress": "6.0.1",
     "@eeacms/volto-block-data-figure": "10.0.0",
-    "@eeacms/volto-editing-progress": "3.0.1",
+    "@eeacms/volto-editing-progress": "4.0.0",
     "@eeacms/volto-citation": "3.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-description-block": "4.0.0",
