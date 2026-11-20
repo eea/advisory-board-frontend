@@ -143,7 +143,7 @@
   "resolutions": {
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-embed": "12.0.0",
-    "@eeacms/volto-embed-content": "1.0.2",
+    "@eeacms/volto-embed-content": "2.0.0",
     "@eeacms/volto-embed-static-content": "2.0.0",
     "@eeacms/volto-datablocks": "10.0.0",
     "@eeacms/volto-datahub": "5.0.0",
